@@ -901,7 +901,7 @@
             tableLayoutPanel17.Controls.Add(tableLayoutPanel20, 2, 0);
             tableLayoutPanel17.Controls.Add(tableLayoutPanel19, 1, 0);
             tableLayoutPanel17.Controls.Add(tableLayoutPanel18, 0, 0);
-            tableLayoutPanel17.Location = new Point(308, 142);
+            tableLayoutPanel17.Location = new Point(304, 124);
             tableLayoutPanel17.Name = "tableLayoutPanel17";
             tableLayoutPanel17.RowCount = 1;
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
