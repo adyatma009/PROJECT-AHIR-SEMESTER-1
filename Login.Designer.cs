@@ -189,6 +189,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(427, 38);
             textBox2.TabIndex = 0;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // label2
             // 
@@ -235,6 +236,7 @@
             button1.TabIndex = 15;
             button1.Text = "Login ";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // panel2
             // 
