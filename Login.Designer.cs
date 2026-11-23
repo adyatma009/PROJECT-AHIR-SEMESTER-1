@@ -28,13 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            label1 = new Label();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            label3 = new Label();
             panel1 = new Panel();
             label6 = new Label();
             textBox1 = new TextBox();
@@ -284,48 +277,17 @@
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
-            ClientSize = new Size(1924, 1050);
+            ClientSize = new Size(800, 450);
             Controls.Add(panel1);
-            Controls.Add(flowLayoutPanel2);
-            Controls.Add(label1);
-            Controls.Add(flowLayoutPanel1);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "Login";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "       ";
-            Load += Login_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            flowLayoutPanel1.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private FlowLayoutPanel flowLayoutPanel1;
-        private Label label1;
-        private FlowLayoutPanel flowLayoutPanel2;
-        private Label label3;
         private Panel panel1;
-        private Label label5;
-        private FlowLayoutPanel flowLayoutPanel4;
-        private Label label2;
-        private Panel panel2;
-        private TextBox textBox1;
-        private Label label4;
-        private Panel panel3;
-        private TextBox textBox2;
-        private Button button1;
-        private CheckBox checkBox1;
-        private LinkLabel linkLabel1;
-        private Label label6;
     }
 }
