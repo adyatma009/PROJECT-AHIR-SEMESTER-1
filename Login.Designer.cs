@@ -36,6 +36,7 @@
             flowLayoutPanel2 = new FlowLayoutPanel();
             label3 = new Label();
             panel1 = new Panel();
+            label6 = new Label();
             textBox1 = new TextBox();
             linkLabel1 = new LinkLabel();
             textBox2 = new TextBox();
@@ -47,7 +48,6 @@
             flowLayoutPanel4 = new FlowLayoutPanel();
             panel3 = new Panel();
             label5 = new Label();
-            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             flowLayoutPanel1.SuspendLayout();
@@ -94,12 +94,13 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Hanken Grotesk Medium", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(1137, 32);
+            label1.Location = new Point(974, 46);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(554, 53);
             label1.TabIndex = 4;
             label1.Text = "It's Good to Have You Here.";
+            label1.Click += label1_Click;
             // 
             // flowLayoutPanel2
             // 
@@ -117,7 +118,7 @@
             label3.Anchor = AnchorStyles.Bottom;
             label3.AutoSize = true;
             label3.Font = new Font("Hanken Grotesk", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(277, 143);
+            label3.Location = new Point(280, 136);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(226, 23);
@@ -141,11 +142,23 @@
             panel1.Controls.Add(flowLayoutPanel4);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(label5);
-            panel1.Location = new Point(1096, 147);
+            panel1.Location = new Point(974, 147);
             panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(746, 905);
+            panel1.Size = new Size(868, 905);
             panel1.TabIndex = 11;
+            // 
+            // label6
+            // 
+            label6.Anchor = AnchorStyles.Bottom;
+            label6.AutoSize = true;
+            label6.Font = new Font("Hanken Grotesk", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(102, 757);
+            label6.Margin = new Padding(4, 0, 4, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(647, 46);
+            label6.TabIndex = 18;
+            label6.Text = "Jurnal harian, kehadiran, dan dokumentasi siswa tersimpan dalam satu sistem.\r\nGuru pembimbing memeriksa dan menyetujui langsung dari website";
             // 
             // textBox1
             // 
@@ -161,7 +174,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(298, 676);
+            linkLabel1.Location = new Point(319, 623);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(154, 25);
             linkLabel1.TabIndex = 17;
@@ -182,7 +195,7 @@
             label2.Anchor = AnchorStyles.Bottom;
             label2.AutoSize = true;
             label2.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(183, 395);
+            label2.Location = new Point(244, 395);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(144, 38);
@@ -205,7 +218,7 @@
             label4.Anchor = AnchorStyles.Bottom;
             label4.AutoSize = true;
             label4.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(183, 257);
+            label4.Location = new Point(244, 257);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(150, 38);
@@ -215,7 +228,7 @@
             // button1
             // 
             button1.Font = new Font("Hanken Grotesk", 10.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(291, 607);
+            button1.Location = new Point(312, 554);
             button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
             button1.Size = new Size(161, 64);
@@ -266,18 +279,6 @@
             label5.Size = new Size(167, 73);
             label5.TabIndex = 9;
             label5.Text = "Login";
-            // 
-            // label6
-            // 
-            label6.Anchor = AnchorStyles.Bottom;
-            label6.AutoSize = true;
-            label6.Font = new Font("Hanken Grotesk", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(58, 780);
-            label6.Margin = new Padding(4, 0, 4, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(647, 46);
-            label6.TabIndex = 18;
-            label6.Text = "Jurnal harian, kehadiran, dan dokumentasi siswa tersimpan dalam satu sistem.\r\nGuru pembimbing memeriksa dan menyetujui langsung dari website";
             // 
             // Login
             // 
