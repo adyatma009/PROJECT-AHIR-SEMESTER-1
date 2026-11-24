@@ -222,13 +222,13 @@
             panel2.Location = new Point(456, 0);
             panel2.Margin = new Padding(4, 5, 4, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1472, 167);
+            panel2.Size = new Size(1472, 129);
             panel2.TabIndex = 9;
             // 
             // pictureBox11
             // 
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(1103, 52);
+            pictureBox11.Location = new Point(1081, 38);
             pictureBox11.Margin = new Padding(4, 5, 4, 5);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(46, 55);
@@ -243,7 +243,7 @@
             tableLayoutPanel14.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 78.75648F));
             tableLayoutPanel14.Controls.Add(pictureBox14, 0, 0);
             tableLayoutPanel14.Controls.Add(flowLayoutPanel2, 1, 0);
-            tableLayoutPanel14.Location = new Point(1157, 52);
+            tableLayoutPanel14.Location = new Point(1135, 33);
             tableLayoutPanel14.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel14.Name = "tableLayoutPanel14";
             tableLayoutPanel14.RowCount = 1;
@@ -336,10 +336,10 @@
             flowLayoutPanel3.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             flowLayoutPanel3.Controls.Add(label15);
             flowLayoutPanel3.Controls.Add(label16);
-            flowLayoutPanel3.Location = new Point(4, 57);
+            flowLayoutPanel3.Location = new Point(4, 62);
             flowLayoutPanel3.Margin = new Padding(4, 5, 4, 5);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(708, 61);
+            flowLayoutPanel3.Size = new Size(708, 66);
             flowLayoutPanel3.TabIndex = 39;
             // 
             // label15
@@ -389,7 +389,7 @@
             panel3.Controls.Add(pictureBox20);
             panel3.Controls.Add(dataGridView10);
             panel3.Controls.Add(label35);
-            panel3.Location = new Point(456, 207);
+            panel3.Location = new Point(456, 172);
             panel3.Margin = new Padding(4, 5, 4, 5);
             panel3.Name = "panel3";
             panel3.Size = new Size(549, 952);
@@ -743,10 +743,10 @@
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label2);
             panel1.Font = new Font("Hanken Grotesk", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            panel1.Location = new Point(1027, 207);
+            panel1.Location = new Point(1027, 139);
             panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(884, 978);
+            panel1.Size = new Size(884, 906);
             panel1.TabIndex = 41;
             // 
             // panel9
@@ -754,7 +754,7 @@
             panel9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             panel9.Controls.Add(label23);
             panel9.Controls.Add(tableLayoutPanel23);
-            panel9.Location = new Point(19, 800);
+            panel9.Location = new Point(4, 658);
             panel9.Margin = new Padding(4, 5, 4, 5);
             panel9.Name = "panel9";
             panel9.Size = new Size(844, 132);
@@ -872,7 +872,7 @@
             panel8.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panel8.Controls.Add(label6);
             panel8.Controls.Add(tableLayoutPanel21);
-            panel8.Location = new Point(19, 630);
+            panel8.Location = new Point(4, 511);
             panel8.Margin = new Padding(4, 5, 4, 5);
             panel8.Name = "panel8";
             panel8.Size = new Size(844, 142);
@@ -990,7 +990,7 @@
             panel6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panel6.Controls.Add(label1);
             panel6.Controls.Add(tableLayoutPanel17);
-            panel6.Location = new Point(19, 468);
+            panel6.Location = new Point(4, 381);
             panel6.Margin = new Padding(4, 5, 4, 5);
             panel6.Name = "panel6";
             panel6.Size = new Size(913, 130);
@@ -1106,7 +1106,7 @@
             panel7.AutoSize = true;
             panel7.Controls.Add(label19);
             panel7.Controls.Add(tableLayoutPanel19);
-            panel7.Location = new Point(19, 307);
+            panel7.Location = new Point(4, 239);
             panel7.Margin = new Padding(4, 5, 4, 5);
             panel7.Name = "panel7";
             panel7.Size = new Size(844, 132);
@@ -1222,10 +1222,10 @@
             panel5.AutoSize = true;
             panel5.Controls.Add(label17);
             panel5.Controls.Add(tableLayoutPanel10);
-            panel5.Location = new Point(19, 153);
+            panel5.Location = new Point(4, 96);
             panel5.Margin = new Padding(4, 5, 4, 5);
             panel5.Name = "panel5";
-            panel5.Size = new Size(864, 132);
+            panel5.Size = new Size(864, 143);
             panel5.TabIndex = 41;
             // 
             // label17
@@ -1247,13 +1247,13 @@
             tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 29F));
             tableLayoutPanel10.Controls.Add(tableLayoutPanel2, 0, 0);
             tableLayoutPanel10.Controls.Add(flowLayoutPanel3, 0, 1);
-            tableLayoutPanel10.Location = new Point(4, 0);
+            tableLayoutPanel10.Location = new Point(4, 5);
             tableLayoutPanel10.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel10.Name = "tableLayoutPanel10";
             tableLayoutPanel10.RowCount = 2;
             tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 42.8571434F));
             tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 57.1428566F));
-            tableLayoutPanel10.Size = new Size(716, 123);
+            tableLayoutPanel10.Size = new Size(716, 133);
             tableLayoutPanel10.TabIndex = 40;
             tableLayoutPanel10.Paint += tableLayoutPanel10_Paint;
             // 
@@ -1267,7 +1267,7 @@
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 88.75F));
             tableLayoutPanel2.Controls.Add(pictureBox3, 0, 0);
             tableLayoutPanel2.Controls.Add(label14, 1, 0);
-            tableLayoutPanel2.Location = new Point(4, 5);
+            tableLayoutPanel2.Location = new Point(4, 7);
             tableLayoutPanel2.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
@@ -1305,7 +1305,7 @@
             // 
             button6.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button6.ForeColor = SystemColors.ControlDark;
-            button6.Location = new Point(510, 77);
+            button6.Location = new Point(510, 48);
             button6.Margin = new Padding(4, 5, 4, 5);
             button6.Name = "button6";
             button6.Size = new Size(131, 38);
@@ -1317,7 +1317,7 @@
             // 
             button5.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button5.ForeColor = SystemColors.ControlDark;
-            button5.Location = new Point(370, 77);
+            button5.Location = new Point(369, 48);
             button5.Margin = new Padding(4, 5, 4, 5);
             button5.Name = "button5";
             button5.Size = new Size(131, 38);
@@ -1330,7 +1330,7 @@
             // 
             button2.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ControlDark;
-            button2.Location = new Point(19, 77);
+            button2.Location = new Point(19, 48);
             button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
             button2.Size = new Size(107, 38);
@@ -1342,7 +1342,7 @@
             // 
             button1.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ControlDark;
-            button1.Location = new Point(134, 77);
+            button1.Location = new Point(134, 48);
             button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
             button1.Size = new Size(227, 38);
@@ -1467,6 +1467,7 @@
             button7.TabIndex = 22;
             button7.Text = "Keluar";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // pictureBox9
             // 

@@ -77,5 +77,12 @@ namespace PROJECT_AHIR__SEMESTER_1
             form4.Show();
             this.Hide();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
     }
 }

@@ -317,7 +317,7 @@
             pictureBox3.Image = Properties.Resources.logo_pkl;
             pictureBox3.Location = new Point(0, 3);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(403, 85);
+            pictureBox3.Size = new Size(252, 85);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 13;
             pictureBox3.TabStop = false;
