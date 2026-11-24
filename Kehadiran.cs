@@ -10,61 +10,66 @@ using System.Windows.Forms;
 
 namespace PROJECT_AHIR__SEMESTER_1
 {
-	public partial class Kehadiran : Form
-	{
-		public Kehadiran()
-		{
-			InitializeComponent();
-		}
+    public partial class Kehadiran : Form
+    {
+        public Kehadiran()
+        {
+            InitializeComponent();
+        }
 
-		private void label1_Click(object sender, EventArgs e)
-		{
+        private void label1_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
-		{
+        private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
 
-		}
+        }
 
-		private void label2_Click(object sender, EventArgs e)
-		{
+        private void label2_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void Kehadiran_Load(object sender, EventArgs e)
-		{
+        private void Kehadiran_Load(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void button6_Click(object sender, EventArgs e)
-		{
+        private void button6_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void label33_Click(object sender, EventArgs e)
-		{
+        private void label33_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void pictureBox3_Click(object sender, EventArgs e)
-		{
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void label27_Click(object sender, EventArgs e)
-		{
+        private void label27_Click(object sender, EventArgs e)
+        {
 
-		}
+        }
 
-		private void panel4_Paint(object sender, PaintEventArgs e)
-		{
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
 
-		}
+        }
 
-		private void label12_Click(object sender, EventArgs e)
-		{
+        private void label12_Click(object sender, EventArgs e)
+        {
 
-		}
-	}
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
