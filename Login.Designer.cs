@@ -76,10 +76,10 @@
             panel1.Controls.Add(flowLayoutPanel4);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(label5);
-            panel1.Location = new Point(1081, 4);
+            panel1.Location = new Point(972, 101);
             panel1.Margin = new Padding(6, 8, 6, 8);
             panel1.Name = "panel1";
-            panel1.Size = new Size(836, 1042);
+            panel1.Size = new Size(833, 906);
             panel1.TabIndex = 11;
             // 
             // label6
@@ -131,7 +131,7 @@
             label2.Anchor = AnchorStyles.Bottom;
             label2.AutoSize = true;
             label2.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(123, 505);
+            label2.Location = new Point(121, 497);
             label2.Margin = new Padding(6, 0, 6, 0);
             label2.Name = "label2";
             label2.Size = new Size(144, 38);
@@ -155,7 +155,7 @@
             label4.Anchor = AnchorStyles.Bottom;
             label4.AutoSize = true;
             label4.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(147, -38);
+            label4.Location = new Point(145, -174);
             label4.Margin = new Padding(6, 0, 6, 0);
             label4.Name = "label4";
             label4.Size = new Size(150, 38);
@@ -179,7 +179,7 @@
             label3.Anchor = AnchorStyles.Bottom;
             label3.AutoSize = true;
             label3.Font = new Font("Hanken Grotesk", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(198, -239);
+            label3.Location = new Point(196, -375);
             label3.Margin = new Padding(6, 0, 6, 0);
             label3.Name = "label3";
             label3.Size = new Size(226, 23);
@@ -296,15 +296,15 @@
             panel4.Controls.Add(pictureBox3);
             panel4.Location = new Point(5, 12);
             panel4.Name = "panel4";
-            panel4.Size = new Size(965, 1034);
+            panel4.Size = new Size(887, 1034);
             panel4.TabIndex = 12;
             // 
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.WhatsApp_Image_2026_11_18_at_10_58_53;
-            pictureBox4.Location = new Point(166, 0);
+            pictureBox4.Location = new Point(26, 94);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(774, 1023);
+            pictureBox4.Size = new Size(837, 929);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 13;
             pictureBox4.TabStop = false;
@@ -312,10 +312,11 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackColor = Color.White;
             pictureBox3.Image = Properties.Resources.logo_pkl;
             pictureBox3.Location = new Point(0, 3);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(151, 75);
+            pictureBox3.Size = new Size(403, 85);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 13;
             pictureBox3.TabStop = false;
