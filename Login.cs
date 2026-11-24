@@ -58,18 +58,25 @@ namespace PROJECT_AHIR__SEMESTER_1
                 return;
             }
 
-            if (user == "Ahmad" && pass == "123456");
+            if (user == "AHMAD" && pass == "1234567890")
             {
                 MessageBox.Show("Login Berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Form2 fo
+                Form2 formUtama = new Form2();
+                formUtama.Show();
+                this.Hide();
             }
 
             else
             {
                 MessageBox.Show("Username atau Password salah!", "Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBox2.Clear();
-                textBox1.Focus();
+                textBox1.Clear();
             }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
