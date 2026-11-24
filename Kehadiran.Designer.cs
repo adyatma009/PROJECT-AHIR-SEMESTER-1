@@ -50,18 +50,12 @@
 			tableLayoutPanel4 = new TableLayoutPanel();
 			pictureBox13 = new PictureBox();
 			label12 = new Label();
-			tableLayoutPanel7 = new TableLayoutPanel();
-			pictureBox14 = new PictureBox();
-			label13 = new Label();
 			tableLayoutPanel10 = new TableLayoutPanel();
 			pictureBox15 = new PictureBox();
 			label14 = new Label();
 			tableLayoutPanel14 = new TableLayoutPanel();
 			pictureBox16 = new PictureBox();
 			label15 = new Label();
-			tableLayoutPanel15 = new TableLayoutPanel();
-			label16 = new Label();
-			pictureBox17 = new PictureBox();
 			pictureBox18 = new PictureBox();
 			flowLayoutPanel1 = new FlowLayoutPanel();
 			label1 = new Label();
@@ -113,6 +107,42 @@
 			pictureBox19 = new PictureBox();
 			pictureBox21 = new PictureBox();
 			pictureBox20 = new PictureBox();
+			tableLayoutPanel17 = new TableLayoutPanel();
+			tableLayoutPanel18 = new TableLayoutPanel();
+			tableLayoutPanel19 = new TableLayoutPanel();
+			pictureBox22 = new PictureBox();
+			label28 = new Label();
+			tableLayoutPanel20 = new TableLayoutPanel();
+			pictureBox23 = new PictureBox();
+			label29 = new Label();
+			tableLayoutPanel21 = new TableLayoutPanel();
+			pictureBox24 = new PictureBox();
+			label30 = new Label();
+			tableLayoutPanel22 = new TableLayoutPanel();
+			pictureBox25 = new PictureBox();
+			label31 = new Label();
+			tableLayoutPanel23 = new TableLayoutPanel();
+			pictureBox26 = new PictureBox();
+			label32 = new Label();
+			pictureBox27 = new PictureBox();
+			tableLayoutPanel24 = new TableLayoutPanel();
+			tableLayoutPanel25 = new TableLayoutPanel();
+			tableLayoutPanel26 = new TableLayoutPanel();
+			pictureBox28 = new PictureBox();
+			label33 = new Label();
+			tableLayoutPanel27 = new TableLayoutPanel();
+			pictureBox29 = new PictureBox();
+			label34 = new Label();
+			tableLayoutPanel28 = new TableLayoutPanel();
+			pictureBox30 = new PictureBox();
+			label35 = new Label();
+			tableLayoutPanel29 = new TableLayoutPanel();
+			pictureBox31 = new PictureBox();
+			label36 = new Label();
+			tableLayoutPanel30 = new TableLayoutPanel();
+			pictureBox32 = new PictureBox();
+			label37 = new Label();
+			pictureBox33 = new PictureBox();
 			panel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
 			tableLayoutPanel3.SuspendLayout();
@@ -129,14 +159,10 @@
 			((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
 			tableLayoutPanel4.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
-			tableLayoutPanel7.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
 			tableLayoutPanel10.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
 			tableLayoutPanel14.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-			tableLayoutPanel15.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
 			((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
 			flowLayoutPanel1.SuspendLayout();
 			panel2.SuspendLayout();
@@ -157,6 +183,32 @@
 			((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
 			((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
 			((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
+			tableLayoutPanel17.SuspendLayout();
+			tableLayoutPanel18.SuspendLayout();
+			tableLayoutPanel19.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
+			tableLayoutPanel20.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+			tableLayoutPanel21.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
+			tableLayoutPanel22.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox25).BeginInit();
+			tableLayoutPanel23.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
+			tableLayoutPanel24.SuspendLayout();
+			tableLayoutPanel25.SuspendLayout();
+			tableLayoutPanel26.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
+			tableLayoutPanel27.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox29).BeginInit();
+			tableLayoutPanel28.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
+			tableLayoutPanel29.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
+			tableLayoutPanel30.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox32).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox33).BeginInit();
 			SuspendLayout();
 			// 
 			// panel1
@@ -184,6 +236,8 @@
 			tableLayoutPanel3.ColumnCount = 1;
 			tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
 			tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 32F));
+			tableLayoutPanel3.Controls.Add(tableLayoutPanel24, 0, 3);
+			tableLayoutPanel3.Controls.Add(tableLayoutPanel17, 0, 2);
 			tableLayoutPanel3.Controls.Add(tableLayoutPanel13, 0, 1);
 			tableLayoutPanel3.Controls.Add(tableLayoutPanel11, 0, 0);
 			tableLayoutPanel3.Dock = DockStyle.Left;
@@ -193,6 +247,8 @@
 			tableLayoutPanel3.RowCount = 2;
 			tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
 			tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 142F));
+			tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+			tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
 			tableLayoutPanel3.Size = new Size(474, 1050);
 			tableLayoutPanel3.TabIndex = 9;
 			tableLayoutPanel3.Paint += tableLayoutPanel3_Paint;
@@ -206,7 +262,7 @@
 			tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 32F));
 			tableLayoutPanel13.Controls.Add(tableLayoutPanel8, 0, 1);
 			tableLayoutPanel13.Controls.Add(tableLayoutPanel9, 0, 0);
-			tableLayoutPanel13.Location = new Point(5, 912);
+			tableLayoutPanel13.Location = new Point(5, 870);
 			tableLayoutPanel13.Margin = new Padding(4, 5, 4, 5);
 			tableLayoutPanel13.Name = "tableLayoutPanel13";
 			tableLayoutPanel13.RowCount = 2;
@@ -323,23 +379,20 @@
 			tableLayoutPanel12.Controls.Add(tableLayoutPanel5, 0, 4);
 			tableLayoutPanel12.Controls.Add(tableLayoutPanel6, 0, 0);
 			tableLayoutPanel12.Controls.Add(tableLayoutPanel4, 0, 1);
-			tableLayoutPanel12.Controls.Add(tableLayoutPanel7, 0, 5);
 			tableLayoutPanel12.Controls.Add(tableLayoutPanel10, 0, 2);
 			tableLayoutPanel12.Controls.Add(tableLayoutPanel14, 0, 3);
-			tableLayoutPanel12.Controls.Add(tableLayoutPanel15, 0, 6);
 			tableLayoutPanel12.Location = new Point(4, 129);
 			tableLayoutPanel12.Margin = new Padding(4, 5, 4, 5);
 			tableLayoutPanel12.Name = "tableLayoutPanel12";
-			tableLayoutPanel12.RowCount = 7;
-			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
-			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
+			tableLayoutPanel12.RowCount = 5;
 			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
 			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
 			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
 			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
 			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
 			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-			tableLayoutPanel12.Size = new Size(456, 469);
+			tableLayoutPanel12.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+			tableLayoutPanel12.Size = new Size(456, 335);
 			tableLayoutPanel12.TabIndex = 22;
 			// 
 			// tableLayoutPanel5
@@ -363,6 +416,7 @@
 			// pictureBox11
 			// 
 			pictureBox11.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
 			pictureBox11.Location = new Point(4, 5);
 			pictureBox11.Margin = new Padding(4, 5, 4, 5);
 			pictureBox11.Name = "pictureBox11";
@@ -376,12 +430,12 @@
 			label10.Anchor = AnchorStyles.Right;
 			label10.AutoSize = true;
 			label10.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label10.Location = new Point(354, 13);
+			label10.Location = new Point(250, 13);
 			label10.Margin = new Padding(4, 0, 4, 0);
 			label10.Name = "label10";
-			label10.Size = new Size(90, 30);
+			label10.Size = new Size(194, 30);
 			label10.TabIndex = 4;
-			label10.Text = "Present";
+			label10.Text = "Guru Pembimbing";
 			// 
 			// tableLayoutPanel6
 			// 
@@ -404,6 +458,7 @@
 			// pictureBox12
 			// 
 			pictureBox12.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
 			pictureBox12.Location = new Point(4, 5);
 			pictureBox12.Margin = new Padding(4, 5, 4, 5);
 			pictureBox12.Name = "pictureBox12";
@@ -445,6 +500,7 @@
 			// pictureBox13
 			// 
 			pictureBox13.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
 			pictureBox13.Location = new Point(4, 5);
 			pictureBox13.Margin = new Padding(4, 5, 4, 5);
 			pictureBox13.Name = "pictureBox13";
@@ -458,53 +514,13 @@
 			label12.Anchor = AnchorStyles.Right;
 			label12.AutoSize = true;
 			label12.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label12.Location = new Point(282, 13);
+			label12.Location = new Point(379, 13);
 			label12.Margin = new Padding(4, 0, 4, 0);
 			label12.Name = "label12";
-			label12.Size = new Size(162, 30);
+			label12.Size = new Size(65, 30);
 			label12.TabIndex = 4;
-			label12.Text = "Student Profile";
-			// 
-			// tableLayoutPanel7
-			// 
-			tableLayoutPanel7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-			tableLayoutPanel7.AutoSize = true;
-			tableLayoutPanel7.ColumnCount = 2;
-			tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
-			tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
-			tableLayoutPanel7.Controls.Add(pictureBox14, 0, 0);
-			tableLayoutPanel7.Controls.Add(label13, 1, 0);
-			tableLayoutPanel7.Location = new Point(4, 340);
-			tableLayoutPanel7.Margin = new Padding(4, 5, 4, 5);
-			tableLayoutPanel7.Name = "tableLayoutPanel7";
-			tableLayoutPanel7.RowCount = 1;
-			tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-			tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 57F));
-			tableLayoutPanel7.Size = new Size(448, 57);
-			tableLayoutPanel7.TabIndex = 19;
-			// 
-			// pictureBox14
-			// 
-			pictureBox14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-			pictureBox14.Location = new Point(4, 5);
-			pictureBox14.Margin = new Padding(4, 5, 4, 5);
-			pictureBox14.Name = "pictureBox14";
-			pictureBox14.Size = new Size(65, 47);
-			pictureBox14.SizeMode = PictureBoxSizeMode.Zoom;
-			pictureBox14.TabIndex = 3;
-			pictureBox14.TabStop = false;
-			// 
-			// label13
-			// 
-			label13.Anchor = AnchorStyles.Right;
-			label13.AutoSize = true;
-			label13.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label13.Location = new Point(270, 13);
-			label13.Margin = new Padding(4, 0, 4, 0);
-			label13.Name = "label13";
-			label13.Size = new Size(174, 30);
-			label13.TabIndex = 4;
-			label13.Text = "Mentor Teacher";
+			label12.Text = "Profil";
+			label12.Click += label12_Click;
 			// 
 			// tableLayoutPanel10
 			// 
@@ -527,6 +543,7 @@
 			// pictureBox15
 			// 
 			pictureBox15.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
 			pictureBox15.Location = new Point(4, 5);
 			pictureBox15.Margin = new Padding(4, 5, 4, 5);
 			pictureBox15.Name = "pictureBox15";
@@ -540,12 +557,12 @@
 			label14.Anchor = AnchorStyles.Right;
 			label14.AutoSize = true;
 			label14.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label14.Location = new Point(215, 13);
+			label14.Location = new Point(292, 13);
 			label14.Margin = new Padding(4, 0, 4, 0);
 			label14.Name = "label14";
-			label14.Size = new Size(229, 30);
+			label14.Size = new Size(152, 30);
 			label14.TabIndex = 4;
-			label14.Text = "Internship Placement";
+			label14.Text = "Jurnal Harian";
 			// 
 			// tableLayoutPanel14
 			// 
@@ -568,6 +585,7 @@
 			// pictureBox16
 			// 
 			pictureBox16.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
 			pictureBox16.Location = new Point(4, 5);
 			pictureBox16.Margin = new Padding(4, 5, 4, 5);
 			pictureBox16.Name = "pictureBox16";
@@ -581,53 +599,12 @@
 			label15.Anchor = AnchorStyles.Right;
 			label15.AutoSize = true;
 			label15.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label15.Location = new Point(295, 13);
+			label15.Location = new Point(328, 13);
 			label15.Margin = new Padding(4, 0, 4, 0);
 			label15.Name = "label15";
-			label15.Size = new Size(149, 30);
+			label15.Size = new Size(116, 30);
 			label15.TabIndex = 4;
-			label15.Text = "Daily Journal";
-			// 
-			// tableLayoutPanel15
-			// 
-			tableLayoutPanel15.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-			tableLayoutPanel15.AutoSize = true;
-			tableLayoutPanel15.ColumnCount = 2;
-			tableLayoutPanel15.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
-			tableLayoutPanel15.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
-			tableLayoutPanel15.Controls.Add(label16, 1, 0);
-			tableLayoutPanel15.Controls.Add(pictureBox17, 0, 0);
-			tableLayoutPanel15.Location = new Point(4, 407);
-			tableLayoutPanel15.Margin = new Padding(4, 5, 4, 5);
-			tableLayoutPanel15.Name = "tableLayoutPanel15";
-			tableLayoutPanel15.RowCount = 1;
-			tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-			tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Absolute, 57F));
-			tableLayoutPanel15.Size = new Size(448, 57);
-			tableLayoutPanel15.TabIndex = 20;
-			// 
-			// label16
-			// 
-			label16.Anchor = AnchorStyles.Right;
-			label16.AutoSize = true;
-			label16.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label16.Location = new Point(288, 13);
-			label16.Margin = new Padding(4, 0, 4, 0);
-			label16.Name = "label16";
-			label16.Size = new Size(156, 30);
-			label16.TabIndex = 4;
-			label16.Text = "Annoucement";
-			// 
-			// pictureBox17
-			// 
-			pictureBox17.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-			pictureBox17.Location = new Point(4, 5);
-			pictureBox17.Margin = new Padding(4, 5, 4, 5);
-			pictureBox17.Name = "pictureBox17";
-			pictureBox17.Size = new Size(65, 47);
-			pictureBox17.SizeMode = PictureBoxSizeMode.Zoom;
-			pictureBox17.TabIndex = 3;
-			pictureBox17.TabStop = false;
+			label15.Text = "Kehadiran";
 			// 
 			// pictureBox18
 			// 
@@ -1174,6 +1151,531 @@
 			pictureBox20.TabIndex = 20;
 			pictureBox20.TabStop = false;
 			// 
+			// tableLayoutPanel17
+			// 
+			tableLayoutPanel17.ColumnCount = 1;
+			tableLayoutPanel17.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+			tableLayoutPanel17.Controls.Add(tableLayoutPanel18, 0, 1);
+			tableLayoutPanel17.Controls.Add(pictureBox27, 0, 0);
+			tableLayoutPanel17.Dock = DockStyle.Left;
+			tableLayoutPanel17.Location = new Point(5, 1013);
+			tableLayoutPanel17.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel17.Name = "tableLayoutPanel17";
+			tableLayoutPanel17.RowCount = 2;
+			tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 14.5933018F));
+			tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 85.4067F));
+			tableLayoutPanel17.Size = new Size(390, 10);
+			tableLayoutPanel17.TabIndex = 23;
+			// 
+			// tableLayoutPanel18
+			// 
+			tableLayoutPanel18.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel18.AutoSize = true;
+			tableLayoutPanel18.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+			tableLayoutPanel18.ColumnCount = 1;
+			tableLayoutPanel18.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+			tableLayoutPanel18.Controls.Add(tableLayoutPanel19, 0, 0);
+			tableLayoutPanel18.Controls.Add(tableLayoutPanel20, 0, 1);
+			tableLayoutPanel18.Controls.Add(tableLayoutPanel21, 0, 2);
+			tableLayoutPanel18.Controls.Add(tableLayoutPanel22, 0, 3);
+			tableLayoutPanel18.Controls.Add(tableLayoutPanel23, 0, 4);
+			tableLayoutPanel18.Location = new Point(4, 6);
+			tableLayoutPanel18.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel18.Name = "tableLayoutPanel18";
+			tableLayoutPanel18.RowCount = 5;
+			tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel18.Size = new Size(382, 1);
+			tableLayoutPanel18.TabIndex = 22;
+			// 
+			// tableLayoutPanel19
+			// 
+			tableLayoutPanel19.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel19.AutoSize = true;
+			tableLayoutPanel19.ColumnCount = 2;
+			tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel19.Controls.Add(pictureBox22, 0, 0);
+			tableLayoutPanel19.Controls.Add(label28, 1, 0);
+			tableLayoutPanel19.Location = new Point(4, 5);
+			tableLayoutPanel19.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel19.Name = "tableLayoutPanel19";
+			tableLayoutPanel19.RowCount = 1;
+			tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel19.Size = new Size(374, 58);
+			tableLayoutPanel19.TabIndex = 11;
+			// 
+			// pictureBox22
+			// 
+			pictureBox22.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox22.Image = (Image)resources.GetObject("pictureBox22.Image");
+			pictureBox22.Location = new Point(4, 5);
+			pictureBox22.Margin = new Padding(4, 5, 4, 5);
+			pictureBox22.Name = "pictureBox22";
+			pictureBox22.Size = new Size(53, 48);
+			pictureBox22.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox22.TabIndex = 3;
+			pictureBox22.TabStop = false;
+			// 
+			// label28
+			// 
+			label28.Anchor = AnchorStyles.Right;
+			label28.AutoSize = true;
+			label28.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label28.Location = new Point(272, 14);
+			label28.Margin = new Padding(4, 0, 4, 0);
+			label28.Name = "label28";
+			label28.Size = new Size(98, 30);
+			label28.TabIndex = 4;
+			label28.Text = "Beranda";
+			// 
+			// tableLayoutPanel20
+			// 
+			tableLayoutPanel20.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel20.AutoSize = true;
+			tableLayoutPanel20.ColumnCount = 2;
+			tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel20.Controls.Add(pictureBox23, 0, 0);
+			tableLayoutPanel20.Controls.Add(label29, 1, 0);
+			tableLayoutPanel20.Location = new Point(4, 73);
+			tableLayoutPanel20.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel20.Name = "tableLayoutPanel20";
+			tableLayoutPanel20.RowCount = 1;
+			tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel20.Size = new Size(374, 58);
+			tableLayoutPanel20.TabIndex = 15;
+			// 
+			// pictureBox23
+			// 
+			pictureBox23.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox23.Image = (Image)resources.GetObject("pictureBox23.Image");
+			pictureBox23.Location = new Point(4, 5);
+			pictureBox23.Margin = new Padding(4, 5, 4, 5);
+			pictureBox23.Name = "pictureBox23";
+			pictureBox23.Size = new Size(53, 48);
+			pictureBox23.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox23.TabIndex = 3;
+			pictureBox23.TabStop = false;
+			// 
+			// label29
+			// 
+			label29.Anchor = AnchorStyles.Right;
+			label29.AutoSize = true;
+			label29.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label29.Location = new Point(287, 14);
+			label29.Margin = new Padding(4, 0, 4, 0);
+			label29.Name = "label29";
+			label29.Size = new Size(83, 30);
+			label29.TabIndex = 4;
+			label29.Text = " Profile";
+			// 
+			// tableLayoutPanel21
+			// 
+			tableLayoutPanel21.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel21.AutoSize = true;
+			tableLayoutPanel21.ColumnCount = 2;
+			tableLayoutPanel21.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel21.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel21.Controls.Add(pictureBox24, 0, 0);
+			tableLayoutPanel21.Controls.Add(label30, 1, 0);
+			tableLayoutPanel21.Location = new Point(4, 141);
+			tableLayoutPanel21.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel21.Name = "tableLayoutPanel21";
+			tableLayoutPanel21.RowCount = 1;
+			tableLayoutPanel21.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel21.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel21.Size = new Size(374, 58);
+			tableLayoutPanel21.TabIndex = 17;
+			// 
+			// pictureBox24
+			// 
+			pictureBox24.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox24.Image = (Image)resources.GetObject("pictureBox24.Image");
+			pictureBox24.Location = new Point(4, 5);
+			pictureBox24.Margin = new Padding(4, 5, 4, 5);
+			pictureBox24.Name = "pictureBox24";
+			pictureBox24.Size = new Size(53, 48);
+			pictureBox24.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox24.TabIndex = 3;
+			pictureBox24.TabStop = false;
+			// 
+			// label30
+			// 
+			label30.Anchor = AnchorStyles.Right;
+			label30.AutoSize = true;
+			label30.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label30.Location = new Point(218, 14);
+			label30.Margin = new Padding(4, 0, 4, 0);
+			label30.Name = "label30";
+			label30.Size = new Size(152, 30);
+			label30.TabIndex = 4;
+			label30.Text = "Jurnal Harian";
+			// 
+			// tableLayoutPanel22
+			// 
+			tableLayoutPanel22.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel22.AutoSize = true;
+			tableLayoutPanel22.ColumnCount = 2;
+			tableLayoutPanel22.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel22.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel22.Controls.Add(pictureBox25, 0, 0);
+			tableLayoutPanel22.Controls.Add(label31, 1, 0);
+			tableLayoutPanel22.Location = new Point(4, 209);
+			tableLayoutPanel22.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel22.Name = "tableLayoutPanel22";
+			tableLayoutPanel22.RowCount = 1;
+			tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel22.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel22.Size = new Size(374, 58);
+			tableLayoutPanel22.TabIndex = 18;
+			// 
+			// pictureBox25
+			// 
+			pictureBox25.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox25.Image = (Image)resources.GetObject("pictureBox25.Image");
+			pictureBox25.Location = new Point(4, 5);
+			pictureBox25.Margin = new Padding(4, 5, 4, 5);
+			pictureBox25.Name = "pictureBox25";
+			pictureBox25.Size = new Size(53, 48);
+			pictureBox25.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox25.TabIndex = 3;
+			pictureBox25.TabStop = false;
+			// 
+			// label31
+			// 
+			label31.Anchor = AnchorStyles.Right;
+			label31.AutoSize = true;
+			label31.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label31.Location = new Point(254, 14);
+			label31.Margin = new Padding(4, 0, 4, 0);
+			label31.Name = "label31";
+			label31.Size = new Size(116, 30);
+			label31.TabIndex = 4;
+			label31.Text = "Kehadiran";
+			// 
+			// tableLayoutPanel23
+			// 
+			tableLayoutPanel23.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel23.AutoSize = true;
+			tableLayoutPanel23.ColumnCount = 2;
+			tableLayoutPanel23.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel23.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel23.Controls.Add(pictureBox26, 0, 0);
+			tableLayoutPanel23.Controls.Add(label32, 1, 0);
+			tableLayoutPanel23.Location = new Point(4, 277);
+			tableLayoutPanel23.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel23.Name = "tableLayoutPanel23";
+			tableLayoutPanel23.RowCount = 1;
+			tableLayoutPanel23.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel23.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel23.Size = new Size(374, 58);
+			tableLayoutPanel23.TabIndex = 19;
+			// 
+			// pictureBox26
+			// 
+			pictureBox26.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox26.Image = (Image)resources.GetObject("pictureBox26.Image");
+			pictureBox26.Location = new Point(4, 5);
+			pictureBox26.Margin = new Padding(4, 5, 4, 5);
+			pictureBox26.Name = "pictureBox26";
+			pictureBox26.Size = new Size(53, 48);
+			pictureBox26.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox26.TabIndex = 3;
+			pictureBox26.TabStop = false;
+			// 
+			// label32
+			// 
+			label32.Anchor = AnchorStyles.Right;
+			label32.AutoSize = true;
+			label32.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label32.Location = new Point(176, 14);
+			label32.Margin = new Padding(4, 0, 4, 0);
+			label32.Name = "label32";
+			label32.Size = new Size(194, 30);
+			label32.TabIndex = 4;
+			label32.Text = "Guru Pembimbing";
+			// 
+			// pictureBox27
+			// 
+			pictureBox27.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox27.Image = (Image)resources.GetObject("pictureBox27.Image");
+			pictureBox27.Location = new Point(4, 5);
+			pictureBox27.Margin = new Padding(4, 5, 4, 5);
+			pictureBox27.Name = "pictureBox27";
+			pictureBox27.Size = new Size(382, 1);
+			pictureBox27.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox27.TabIndex = 8;
+			pictureBox27.TabStop = false;
+			// 
+			// tableLayoutPanel24
+			// 
+			tableLayoutPanel24.ColumnCount = 1;
+			tableLayoutPanel24.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+			tableLayoutPanel24.Controls.Add(tableLayoutPanel25, 0, 1);
+			tableLayoutPanel24.Controls.Add(pictureBox33, 0, 0);
+			tableLayoutPanel24.Dock = DockStyle.Left;
+			tableLayoutPanel24.Location = new Point(5, 1034);
+			tableLayoutPanel24.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel24.Name = "tableLayoutPanel24";
+			tableLayoutPanel24.RowCount = 2;
+			tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 14.5933018F));
+			tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Percent, 85.4067F));
+			tableLayoutPanel24.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+			tableLayoutPanel24.Size = new Size(390, 10);
+			tableLayoutPanel24.TabIndex = 24;
+			// 
+			// tableLayoutPanel25
+			// 
+			tableLayoutPanel25.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel25.AutoSize = true;
+			tableLayoutPanel25.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+			tableLayoutPanel25.ColumnCount = 1;
+			tableLayoutPanel25.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+			tableLayoutPanel25.Controls.Add(tableLayoutPanel26, 0, 0);
+			tableLayoutPanel25.Controls.Add(tableLayoutPanel27, 0, 1);
+			tableLayoutPanel25.Controls.Add(tableLayoutPanel28, 0, 2);
+			tableLayoutPanel25.Controls.Add(tableLayoutPanel29, 0, 3);
+			tableLayoutPanel25.Controls.Add(tableLayoutPanel30, 0, 4);
+			tableLayoutPanel25.Location = new Point(4, 6);
+			tableLayoutPanel25.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel25.Name = "tableLayoutPanel25";
+			tableLayoutPanel25.RowCount = 5;
+			tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel25.RowStyles.Add(new RowStyle(SizeType.Absolute, 68F));
+			tableLayoutPanel25.Size = new Size(382, 1);
+			tableLayoutPanel25.TabIndex = 22;
+			// 
+			// tableLayoutPanel26
+			// 
+			tableLayoutPanel26.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel26.AutoSize = true;
+			tableLayoutPanel26.ColumnCount = 2;
+			tableLayoutPanel26.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel26.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel26.Controls.Add(pictureBox28, 0, 0);
+			tableLayoutPanel26.Controls.Add(label33, 1, 0);
+			tableLayoutPanel26.Location = new Point(4, 5);
+			tableLayoutPanel26.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel26.Name = "tableLayoutPanel26";
+			tableLayoutPanel26.RowCount = 1;
+			tableLayoutPanel26.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel26.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel26.Size = new Size(374, 58);
+			tableLayoutPanel26.TabIndex = 11;
+			// 
+			// pictureBox28
+			// 
+			pictureBox28.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox28.Image = (Image)resources.GetObject("pictureBox28.Image");
+			pictureBox28.Location = new Point(4, 5);
+			pictureBox28.Margin = new Padding(4, 5, 4, 5);
+			pictureBox28.Name = "pictureBox28";
+			pictureBox28.Size = new Size(53, 48);
+			pictureBox28.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox28.TabIndex = 3;
+			pictureBox28.TabStop = false;
+			// 
+			// label33
+			// 
+			label33.Anchor = AnchorStyles.Right;
+			label33.AutoSize = true;
+			label33.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label33.Location = new Point(272, 14);
+			label33.Margin = new Padding(4, 0, 4, 0);
+			label33.Name = "label33";
+			label33.Size = new Size(98, 30);
+			label33.TabIndex = 4;
+			label33.Text = "Beranda";
+			// 
+			// tableLayoutPanel27
+			// 
+			tableLayoutPanel27.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel27.AutoSize = true;
+			tableLayoutPanel27.ColumnCount = 2;
+			tableLayoutPanel27.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel27.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel27.Controls.Add(pictureBox29, 0, 0);
+			tableLayoutPanel27.Controls.Add(label34, 1, 0);
+			tableLayoutPanel27.Location = new Point(4, 73);
+			tableLayoutPanel27.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel27.Name = "tableLayoutPanel27";
+			tableLayoutPanel27.RowCount = 1;
+			tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel27.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel27.Size = new Size(374, 58);
+			tableLayoutPanel27.TabIndex = 15;
+			// 
+			// pictureBox29
+			// 
+			pictureBox29.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox29.Image = (Image)resources.GetObject("pictureBox29.Image");
+			pictureBox29.Location = new Point(4, 5);
+			pictureBox29.Margin = new Padding(4, 5, 4, 5);
+			pictureBox29.Name = "pictureBox29";
+			pictureBox29.Size = new Size(53, 48);
+			pictureBox29.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox29.TabIndex = 3;
+			pictureBox29.TabStop = false;
+			// 
+			// label34
+			// 
+			label34.Anchor = AnchorStyles.Right;
+			label34.AutoSize = true;
+			label34.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label34.Location = new Point(287, 14);
+			label34.Margin = new Padding(4, 0, 4, 0);
+			label34.Name = "label34";
+			label34.Size = new Size(83, 30);
+			label34.TabIndex = 4;
+			label34.Text = " Profile";
+			// 
+			// tableLayoutPanel28
+			// 
+			tableLayoutPanel28.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel28.AutoSize = true;
+			tableLayoutPanel28.ColumnCount = 2;
+			tableLayoutPanel28.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel28.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel28.Controls.Add(pictureBox30, 0, 0);
+			tableLayoutPanel28.Controls.Add(label35, 1, 0);
+			tableLayoutPanel28.Location = new Point(4, 141);
+			tableLayoutPanel28.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel28.Name = "tableLayoutPanel28";
+			tableLayoutPanel28.RowCount = 1;
+			tableLayoutPanel28.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel28.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel28.Size = new Size(374, 58);
+			tableLayoutPanel28.TabIndex = 17;
+			// 
+			// pictureBox30
+			// 
+			pictureBox30.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox30.Image = (Image)resources.GetObject("pictureBox30.Image");
+			pictureBox30.Location = new Point(4, 5);
+			pictureBox30.Margin = new Padding(4, 5, 4, 5);
+			pictureBox30.Name = "pictureBox30";
+			pictureBox30.Size = new Size(53, 48);
+			pictureBox30.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox30.TabIndex = 3;
+			pictureBox30.TabStop = false;
+			// 
+			// label35
+			// 
+			label35.Anchor = AnchorStyles.Right;
+			label35.AutoSize = true;
+			label35.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label35.Location = new Point(218, 14);
+			label35.Margin = new Padding(4, 0, 4, 0);
+			label35.Name = "label35";
+			label35.Size = new Size(152, 30);
+			label35.TabIndex = 4;
+			label35.Text = "Jurnal Harian";
+			// 
+			// tableLayoutPanel29
+			// 
+			tableLayoutPanel29.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel29.AutoSize = true;
+			tableLayoutPanel29.ColumnCount = 2;
+			tableLayoutPanel29.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel29.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel29.Controls.Add(pictureBox31, 0, 0);
+			tableLayoutPanel29.Controls.Add(label36, 1, 0);
+			tableLayoutPanel29.Location = new Point(4, 209);
+			tableLayoutPanel29.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel29.Name = "tableLayoutPanel29";
+			tableLayoutPanel29.RowCount = 1;
+			tableLayoutPanel29.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel29.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel29.Size = new Size(374, 58);
+			tableLayoutPanel29.TabIndex = 18;
+			// 
+			// pictureBox31
+			// 
+			pictureBox31.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox31.Image = (Image)resources.GetObject("pictureBox31.Image");
+			pictureBox31.Location = new Point(4, 5);
+			pictureBox31.Margin = new Padding(4, 5, 4, 5);
+			pictureBox31.Name = "pictureBox31";
+			pictureBox31.Size = new Size(53, 48);
+			pictureBox31.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox31.TabIndex = 3;
+			pictureBox31.TabStop = false;
+			// 
+			// label36
+			// 
+			label36.Anchor = AnchorStyles.Right;
+			label36.AutoSize = true;
+			label36.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label36.Location = new Point(254, 14);
+			label36.Margin = new Padding(4, 0, 4, 0);
+			label36.Name = "label36";
+			label36.Size = new Size(116, 30);
+			label36.TabIndex = 4;
+			label36.Text = "Kehadiran";
+			// 
+			// tableLayoutPanel30
+			// 
+			tableLayoutPanel30.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel30.AutoSize = true;
+			tableLayoutPanel30.ColumnCount = 2;
+			tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
+			tableLayoutPanel30.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
+			tableLayoutPanel30.Controls.Add(pictureBox32, 0, 0);
+			tableLayoutPanel30.Controls.Add(label37, 1, 0);
+			tableLayoutPanel30.Location = new Point(4, 277);
+			tableLayoutPanel30.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel30.Name = "tableLayoutPanel30";
+			tableLayoutPanel30.RowCount = 1;
+			tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+			tableLayoutPanel30.RowStyles.Add(new RowStyle(SizeType.Absolute, 58F));
+			tableLayoutPanel30.Size = new Size(374, 58);
+			tableLayoutPanel30.TabIndex = 19;
+			// 
+			// pictureBox32
+			// 
+			pictureBox32.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox32.Image = (Image)resources.GetObject("pictureBox32.Image");
+			pictureBox32.Location = new Point(4, 5);
+			pictureBox32.Margin = new Padding(4, 5, 4, 5);
+			pictureBox32.Name = "pictureBox32";
+			pictureBox32.Size = new Size(53, 48);
+			pictureBox32.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox32.TabIndex = 3;
+			pictureBox32.TabStop = false;
+			// 
+			// label37
+			// 
+			label37.Anchor = AnchorStyles.Right;
+			label37.AutoSize = true;
+			label37.Font = new Font("Hanken Grotesk", 11.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			label37.Location = new Point(176, 14);
+			label37.Margin = new Padding(4, 0, 4, 0);
+			label37.Name = "label37";
+			label37.Size = new Size(194, 30);
+			label37.TabIndex = 4;
+			label37.Text = "Guru Pembimbing";
+			// 
+			// pictureBox33
+			// 
+			pictureBox33.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			pictureBox33.Image = (Image)resources.GetObject("pictureBox33.Image");
+			pictureBox33.Location = new Point(4, 5);
+			pictureBox33.Margin = new Padding(4, 5, 4, 5);
+			pictureBox33.Name = "pictureBox33";
+			pictureBox33.Size = new Size(382, 1);
+			pictureBox33.SizeMode = PictureBoxSizeMode.Zoom;
+			pictureBox33.TabIndex = 8;
+			pictureBox33.TabStop = false;
+			// 
 			// Kehadiran
 			// 
 			AutoScaleDimensions = new SizeF(11F, 25F);
@@ -1215,18 +1717,12 @@
 			tableLayoutPanel4.ResumeLayout(false);
 			tableLayoutPanel4.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
-			tableLayoutPanel7.ResumeLayout(false);
-			tableLayoutPanel7.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
 			tableLayoutPanel10.ResumeLayout(false);
 			tableLayoutPanel10.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
 			tableLayoutPanel14.ResumeLayout(false);
 			tableLayoutPanel14.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-			tableLayoutPanel15.ResumeLayout(false);
-			tableLayoutPanel15.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
 			((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
 			flowLayoutPanel1.ResumeLayout(false);
 			flowLayoutPanel1.PerformLayout();
@@ -1253,6 +1749,46 @@
 			((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
 			((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
 			((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
+			tableLayoutPanel17.ResumeLayout(false);
+			tableLayoutPanel17.PerformLayout();
+			tableLayoutPanel18.ResumeLayout(false);
+			tableLayoutPanel18.PerformLayout();
+			tableLayoutPanel19.ResumeLayout(false);
+			tableLayoutPanel19.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
+			tableLayoutPanel20.ResumeLayout(false);
+			tableLayoutPanel20.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+			tableLayoutPanel21.ResumeLayout(false);
+			tableLayoutPanel21.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
+			tableLayoutPanel22.ResumeLayout(false);
+			tableLayoutPanel22.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox25).EndInit();
+			tableLayoutPanel23.ResumeLayout(false);
+			tableLayoutPanel23.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
+			tableLayoutPanel24.ResumeLayout(false);
+			tableLayoutPanel24.PerformLayout();
+			tableLayoutPanel25.ResumeLayout(false);
+			tableLayoutPanel25.PerformLayout();
+			tableLayoutPanel26.ResumeLayout(false);
+			tableLayoutPanel26.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
+			tableLayoutPanel27.ResumeLayout(false);
+			tableLayoutPanel27.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox29).EndInit();
+			tableLayoutPanel28.ResumeLayout(false);
+			tableLayoutPanel28.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox30).EndInit();
+			tableLayoutPanel29.ResumeLayout(false);
+			tableLayoutPanel29.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
+			tableLayoutPanel30.ResumeLayout(false);
+			tableLayoutPanel30.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox32).EndInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox33).EndInit();
 			ResumeLayout(false);
 		}
 
@@ -1279,18 +1815,12 @@
 		private TableLayoutPanel tableLayoutPanel4;
 		private PictureBox pictureBox13;
 		private Label label12;
-		private TableLayoutPanel tableLayoutPanel7;
-		private PictureBox pictureBox14;
-		private Label label13;
 		private TableLayoutPanel tableLayoutPanel10;
 		private PictureBox pictureBox15;
 		private Label label14;
 		private TableLayoutPanel tableLayoutPanel14;
 		private PictureBox pictureBox16;
 		private Label label15;
-		private TableLayoutPanel tableLayoutPanel15;
-		private Label label16;
-		private PictureBox pictureBox17;
 		private PictureBox pictureBox18;
 		private FlowLayoutPanel flowLayoutPanel1;
 		private Label label1;
@@ -1342,5 +1872,41 @@
 		private PictureBox pictureBox6;
 		private PictureBox pictureBox20;
 		private PictureBox pictureBox21;
+		private TableLayoutPanel tableLayoutPanel17;
+		private TableLayoutPanel tableLayoutPanel18;
+		private TableLayoutPanel tableLayoutPanel19;
+		private PictureBox pictureBox22;
+		private Label label28;
+		private TableLayoutPanel tableLayoutPanel20;
+		private PictureBox pictureBox23;
+		private Label label29;
+		private TableLayoutPanel tableLayoutPanel21;
+		private PictureBox pictureBox24;
+		private Label label30;
+		private TableLayoutPanel tableLayoutPanel22;
+		private PictureBox pictureBox25;
+		private Label label31;
+		private TableLayoutPanel tableLayoutPanel23;
+		private PictureBox pictureBox26;
+		private Label label32;
+		private PictureBox pictureBox27;
+		private TableLayoutPanel tableLayoutPanel24;
+		private TableLayoutPanel tableLayoutPanel25;
+		private TableLayoutPanel tableLayoutPanel26;
+		private PictureBox pictureBox28;
+		private Label label33;
+		private TableLayoutPanel tableLayoutPanel27;
+		private PictureBox pictureBox29;
+		private Label label34;
+		private TableLayoutPanel tableLayoutPanel28;
+		private PictureBox pictureBox30;
+		private Label label35;
+		private TableLayoutPanel tableLayoutPanel29;
+		private PictureBox pictureBox31;
+		private Label label36;
+		private TableLayoutPanel tableLayoutPanel30;
+		private PictureBox pictureBox32;
+		private Label label37;
+		private PictureBox pictureBox33;
 	}
 }
