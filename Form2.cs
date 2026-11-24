@@ -65,16 +65,36 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         }
 
-        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
-        {
-            Form2 from2 = new Form2();
-            from2.Show();
-            this.Hide();
-        }
+
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-          
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Statistik statistik = new Statistik();
+            statistik.Show();
+            this.Hide();
         }
     }
 }
