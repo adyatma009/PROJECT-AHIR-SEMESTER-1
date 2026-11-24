@@ -74,7 +74,17 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-          
+
+        }
+
+        private void tableLayoutPanel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
