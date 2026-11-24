@@ -12,10 +12,29 @@ namespace PROJECT_AHIR__SEMESTER_1
 {
     public partial class Kehadiran : Form
     {
+        public static DataTable dataJurnalKehadiran = new DataTable();
         public Kehadiran()
         {
             InitializeComponent();
         }
+
+        private void Kehadiran_Load(object sender, EventArgs e)
+        {
+            // Jika tabelnya belum punya kolom, kita buatkan kolomnya otomatis
+            if (dataJurnalKehadiran.Columns.Count == 0)
+            {
+                dataJurnalKehadiran.Columns.Add("Tanggal");
+                dataJurnalKehadiran.Columns.Add("Jam Mulai");
+                dataJurnalKehadiran.Columns.Add("Jam Selesai");
+                dataJurnalKehadiran.Columns.Add("Judul Kegiatan");
+                dataJurnalKehadiran.Columns.Add("Deskripsi");
+            }
+
+            // Hubungkan wadah data ini ke DataGridView yang ada di form Kehadiran
+            // (Pastikan 'dataGridView1' disesuaikan dengan nama asli DGV di form Kehadiran Anda)
+            dataGridView1.DataSource = dataJurnalKehadiran;
+        }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -28,11 +47,6 @@ namespace PROJECT_AHIR__SEMESTER_1
         }
 
         private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Kehadiran_Load(object sender, EventArgs e)
         {
 
         }
@@ -79,7 +93,7 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();\
+            Form2 form2 = new Form2();
             form2.Show();
             this.Hide();
         }
@@ -117,6 +131,11 @@ namespace PROJECT_AHIR__SEMESTER_1
             Login login = new Login();
             login.Show();
             this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
