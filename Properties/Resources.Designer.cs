@@ -59,5 +59,25 @@ namespace PROJECT_AHIR__SEMESTER_1.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_pkl {
+            get {
+                object obj = ResourceManager.GetObject("logo pkl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_11_18_at_10_58_53 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-11-18 at 10.58.53", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
