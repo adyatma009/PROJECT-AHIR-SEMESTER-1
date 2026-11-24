@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            label6 = new Label();
             textBox1 = new TextBox();
             linkLabel1 = new LinkLabel();
             textBox2 = new TextBox();

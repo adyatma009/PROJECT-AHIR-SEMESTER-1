@@ -51,5 +51,10 @@ namespace PROJECT_AHIR__SEMESTER_1
         {
 
         }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
