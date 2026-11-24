@@ -51,5 +51,30 @@ namespace PROJECT_AHIR__SEMESTER_1
         {
 
         }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel16_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
