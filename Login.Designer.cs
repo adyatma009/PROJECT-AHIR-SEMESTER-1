@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             panel1 = new Panel();
+            label7 = new Label();
             textBox1 = new TextBox();
             linkLabel1 = new LinkLabel();
             textBox2 = new TextBox();
@@ -62,7 +63,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
-            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label7);
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(textBox2);
@@ -81,17 +82,17 @@
             panel1.Size = new Size(833, 906);
             panel1.TabIndex = 11;
             // 
-            // label6
+            // label7
             // 
-            label6.Anchor = AnchorStyles.Bottom;
-            label6.AutoSize = true;
-            label6.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(125, 357);
-            label6.Margin = new Padding(6, 0, 6, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(150, 38);
-            label6.TabIndex = 18;
-            label6.Text = "Username";
+            label7.Anchor = AnchorStyles.Bottom;
+            label7.AutoSize = true;
+            label7.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(125, 357);
+            label7.Margin = new Padding(6, 0, 6, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(150, 38);
+            label7.TabIndex = 18;
+            label7.Text = "Username";
             // 
             // textBox1
             // 
@@ -291,6 +292,7 @@
             // 
             // panel4
             // 
+            panel4.BackColor = Color.White;
             panel4.Controls.Add(pictureBox4);
             panel4.Controls.Add(pictureBox3);
             panel4.Location = new Point(5, 12);
@@ -325,6 +327,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
+            BackColor = Color.White;
             ClientSize = new Size(1924, 1050);
             Controls.Add(panel4);
             Controls.Add(panel1);
@@ -366,5 +369,6 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private Label label6;
+        private Label label7;
     }
 }
