@@ -45,7 +45,7 @@
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(236, 9);
+            dateTimePicker1.Location = new Point(302, 7);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(303, 31);
             dateTimePicker1.TabIndex = 0;
@@ -160,6 +160,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1001, 629);
             panel1.TabIndex = 10;
+            panel1.Paint += panel1_Paint;
             // 
             // FORM_TAMBAHKAN_JURNAL
             // 
