@@ -862,7 +862,7 @@
             tableLayoutPanel17.RowCount = 1;
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Absolute, 123F));
-            tableLayoutPanel17.Size = new Size(1572, 198);
+            tableLayoutPanel17.Size = new Size(1593, 138);
             tableLayoutPanel17.TabIndex = 13;
             // 
             // tableLayoutPanel20
@@ -872,7 +872,7 @@
             tableLayoutPanel20.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85.38461F));
             tableLayoutPanel20.Controls.Add(flowLayoutPanel5, 1, 0);
             tableLayoutPanel20.Controls.Add(pictureBox17, 0, 0);
-            tableLayoutPanel20.Location = new Point(1081, 5);
+            tableLayoutPanel20.Location = new Point(1096, 5);
             tableLayoutPanel20.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel20.Name = "tableLayoutPanel20";
             tableLayoutPanel20.RowCount = 1;
@@ -945,7 +945,7 @@
             tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85.37859F));
             tableLayoutPanel19.Controls.Add(flowLayoutPanel4, 1, 0);
             tableLayoutPanel19.Controls.Add(pictureBox16, 0, 0);
-            tableLayoutPanel19.Location = new Point(484, 5);
+            tableLayoutPanel19.Location = new Point(491, 5);
             tableLayoutPanel19.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel19.Name = "tableLayoutPanel19";
             tableLayoutPanel19.RowCount = 1;
