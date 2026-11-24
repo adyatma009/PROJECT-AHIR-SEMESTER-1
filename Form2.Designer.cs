@@ -33,7 +33,6 @@
             tableLayoutPanel3 = new TableLayoutPanel();
             tableLayoutPanel13 = new TableLayoutPanel();
             tableLayoutPanel8 = new TableLayoutPanel();
-            label7 = new Label();
             pictureBox8 = new PictureBox();
             tableLayoutPanel9 = new TableLayoutPanel();
             button2 = new Button();
@@ -83,11 +82,11 @@
             label22 = new Label();
             pictureBox17 = new PictureBox();
             tableLayoutPanel19 = new TableLayoutPanel();
+            pictureBox16 = new PictureBox();
             flowLayoutPanel4 = new FlowLayoutPanel();
             label17 = new Label();
             label18 = new Label();
             label19 = new Label();
-            pictureBox16 = new PictureBox();
             tableLayoutPanel18 = new TableLayoutPanel();
             flowLayoutPanel3 = new FlowLayoutPanel();
             tableLayoutPanel21 = new TableLayoutPanel();
@@ -145,6 +144,7 @@
             panel8 = new Panel();
             textBox10 = new TextBox();
             label44 = new Label();
+            button8 = new Button();
             tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel13.SuspendLayout();
             tableLayoutPanel8.SuspendLayout();
@@ -180,8 +180,8 @@
             flowLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             tableLayoutPanel19.SuspendLayout();
-            flowLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
+            flowLayoutPanel4.SuspendLayout();
             tableLayoutPanel18.SuspendLayout();
             flowLayoutPanel3.SuspendLayout();
             tableLayoutPanel21.SuspendLayout();
@@ -259,7 +259,7 @@
             tableLayoutPanel8.ColumnCount = 2;
             tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.5F));
             tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 83.5F));
-            tableLayoutPanel8.Controls.Add(label7, 1, 0);
+            tableLayoutPanel8.Controls.Add(button8, 1, 0);
             tableLayoutPanel8.Controls.Add(pictureBox8, 0, 0);
             tableLayoutPanel8.Location = new Point(3, 43);
             tableLayoutPanel8.Name = "tableLayoutPanel8";
@@ -765,7 +765,7 @@
             label10.Location = new Point(2, 0);
             label10.Margin = new Padding(2, 0, 2, 0);
             label10.Name = "label10";
-            label10.Size = new Size(218, 25);
+            label10.Size = new Size(335, 38);
             label10.TabIndex = 9;
             label10.Text = "Selamat Datang, Ahmad";
             // 
@@ -913,6 +913,7 @@
             tableLayoutPanel19.ColumnCount = 2;
             tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 14.62141F));
             tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85.37859F));
+            tableLayoutPanel19.Controls.Add(pictureBox16, 0, 0);
             tableLayoutPanel19.Controls.Add(flowLayoutPanel4, 1, 0);
             tableLayoutPanel19.Controls.Add(pictureBox16, 0, 0);
             tableLayoutPanel19.Location = new Point(411, 3);
@@ -922,6 +923,18 @@
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Absolute, 63F));
             tableLayoutPanel19.Size = new Size(358, 63);
             tableLayoutPanel19.TabIndex = 17;
+            // 
+            // pictureBox16
+            // 
+            pictureBox16.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
+            pictureBox16.Location = new Point(4, 12);
+            pictureBox16.Margin = new Padding(4, 5, 4, 5);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new Size(66, 95);
+            pictureBox16.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox16.TabIndex = 9;
+            pictureBox16.TabStop = false;
             // 
             // flowLayoutPanel4
             // 
@@ -1334,7 +1347,7 @@
             label36.Location = new Point(32, 2);
             label36.Margin = new Padding(2, 0, 2, 0);
             label36.Name = "label36";
-            label36.Size = new Size(347, 16);
+            label36.Size = new Size(488, 23);
             label36.TabIndex = 13;
             label36.Text = "Slicing UI Halaman Dashboard Admin & API Integration";
             // 
@@ -1358,6 +1371,7 @@
             button1.TabIndex = 14;
             button1.Text = "+Tambahkan Jurnal";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // panel3
             // 
@@ -1413,7 +1427,7 @@
             label42.Location = new Point(32, 11);
             label42.Margin = new Padding(2, 0, 2, 0);
             label42.Name = "label42";
-            label42.Size = new Size(334, 16);
+            label42.Size = new Size(508, 23);
             label42.TabIndex = 14;
             label42.Text = "Divisi Web Development • Pembimbing Industri: Raka Pratama";
             // 
@@ -1424,7 +1438,7 @@
             label43.Location = new Point(32, 2);
             label43.Margin = new Padding(2, 0, 2, 0);
             label43.Name = "label43";
-            label43.Size = new Size(347, 16);
+            label43.Size = new Size(488, 23);
             label43.TabIndex = 13;
             label43.Text = "Slicing UI Halaman Dashboard Admin & API Integration";
             // 
@@ -1539,7 +1553,7 @@
             label38.Location = new Point(32, 11);
             label38.Margin = new Padding(2, 0, 2, 0);
             label38.Name = "label38";
-            label38.Size = new Size(334, 16);
+            label38.Size = new Size(508, 23);
             label38.TabIndex = 14;
             label38.Text = "Divisi Web Development • Pembimbing Industri: Raka Pratama";
             // 
@@ -1550,7 +1564,7 @@
             label39.Location = new Point(32, 2);
             label39.Margin = new Padding(2, 0, 2, 0);
             label39.Name = "label39";
-            label39.Size = new Size(347, 16);
+            label39.Size = new Size(488, 23);
             label39.TabIndex = 13;
             label39.Text = "Slicing UI Halaman Dashboard Admin & API Integration";
             // 
@@ -1602,6 +1616,16 @@
             label44.TabIndex = 11;
             label44.Text = "Kalender PKL";
             // 
+            // button8
+            // 
+            button8.Anchor = AnchorStyles.Right;
+            button8.Location = new Point(71, 3);
+            button8.Name = "button8";
+            button8.Size = new Size(339, 49);
+            button8.TabIndex = 23;
+            button8.Text = "Pengaturan";
+            button8.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1627,7 +1651,6 @@
             tableLayoutPanel3.PerformLayout();
             tableLayoutPanel13.ResumeLayout(false);
             tableLayoutPanel8.ResumeLayout(false);
-            tableLayoutPanel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             tableLayoutPanel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
@@ -1667,9 +1690,9 @@
             flowLayoutPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             tableLayoutPanel19.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             flowLayoutPanel4.ResumeLayout(false);
             flowLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             tableLayoutPanel18.ResumeLayout(false);
             flowLayoutPanel3.ResumeLayout(false);
             flowLayoutPanel3.PerformLayout();
@@ -1718,7 +1741,6 @@
         private PictureBox pictureBox6;
         private TableLayoutPanel tableLayoutPanel8;
         private PictureBox pictureBox8;
-        private Label label7;
         private TableLayoutPanel tableLayoutPanel9;
         private PictureBox pictureBox9;
         private TableLayoutPanel tableLayoutPanel1;
@@ -1827,5 +1849,6 @@
         private Button button5;
         private Button button6;
         private Button button7;
+        private Button button8;
     }
 }
