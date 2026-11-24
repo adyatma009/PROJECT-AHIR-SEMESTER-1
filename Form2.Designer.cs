@@ -1334,7 +1334,7 @@
             panel4.Location = new Point(16, 108);
             panel4.Margin = new Padding(4, 5, 4, 5);
             panel4.Name = "panel4";
-            panel4.Size = new Size(897, 77);
+            panel4.Size = new Size(897, 134);
             panel4.TabIndex = 12;
             // 
             // textBox3
