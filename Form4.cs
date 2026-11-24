@@ -15,6 +15,7 @@ namespace PROJECT_AHIR__SEMESTER_1
         public Form4()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -81,6 +82,63 @@ namespace PROJECT_AHIR__SEMESTER_1
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            string tanggal = textBox1.Text;       
+            string jamMulai = textBox2.Text;
+            string jamSelesai = textBox3.Text;
+            string judul = textBox4.Text;
+            string deskripsi = textBox5.Text;
+
+            if (tanggal =="" || jamMulai == "" || jamSelesai =="" || judul == "" || deskripsi == "")
+            {
+                MessageBox.Show("Pastikan Tidak Ada yang kosong!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            MessageBox.Show("Jurnal harian berhasil disimpan!\n\n" + "Tanggal: " + tanggal + "\n" +
+                           "Jam: " + jamMulai + " - " + jamSelesai + "\n" +
+                           "Kegiatan: " + judul,
+                           "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                   
+
+        }
+
+        private void BersihkanForm()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
         }
     }
 }

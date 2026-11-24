@@ -81,7 +81,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(664, 34);
             textBox1.TabIndex = 3;
-            textBox1.Text = "Masukkan Judul ssingkat pekerjaan";
             // 
             // label3
             // 
@@ -94,15 +93,15 @@
             label3.Size = new Size(346, 28);
             label3.TabIndex = 4;
             label3.Text = "Uraian / Deskripsi Detail Kegiatan :";
+            label3.Click += label3_Click;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(395, 122);
+            textBox2.Location = new Point(433, 122);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(571, 146);
+            textBox2.Size = new Size(533, 146);
             textBox2.TabIndex = 5;
-            textBox2.Text = "Tuliskan apa saja yang dikerjakan hari ini......";
             // 
             // label4
             // 
@@ -145,7 +144,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.White;
+            panel1.BackColor = Color.WhiteSmoke;
             panel1.Controls.Add(label1);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(button2);
@@ -158,7 +157,7 @@
             panel1.Controls.Add(textBox2);
             panel1.Location = new Point(32, 16);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1001, 629);
+            panel1.Size = new Size(1018, 629);
             panel1.TabIndex = 10;
             panel1.Paint += panel1_Paint;
             // 

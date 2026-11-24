@@ -74,6 +74,9 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void button7_Click(object sender, EventArgs e)
         {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
 
         }
 
@@ -141,6 +144,49 @@ namespace PROJECT_AHIR__SEMESTER_1
         private void label33_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Statistik statistik = new Statistik();
+            statistik.Show();
+            this.Hide();
         }
     }
 }
