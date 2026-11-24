@@ -802,7 +802,7 @@
             // 
             pictureBox15.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(4, 6);
+            pictureBox15.Location = new Point(4, 13);
             pictureBox15.Margin = new Padding(4, 5, 4, 5);
             pictureBox15.Name = "pictureBox15";
             pictureBox15.Size = new Size(53, 92);
@@ -855,13 +855,13 @@
             tableLayoutPanel17.Controls.Add(tableLayoutPanel20, 2, 0);
             tableLayoutPanel17.Controls.Add(tableLayoutPanel19, 1, 0);
             tableLayoutPanel17.Controls.Add(tableLayoutPanel18, 0, 0);
-            tableLayoutPanel17.Location = new Point(435, 153);
+            tableLayoutPanel17.Location = new Point(431, 132);
             tableLayoutPanel17.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel17.Name = "tableLayoutPanel17";
             tableLayoutPanel17.RowCount = 1;
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Absolute, 123F));
-            tableLayoutPanel17.Size = new Size(1719, 126);
+            tableLayoutPanel17.Size = new Size(1719, 136);
             tableLayoutPanel17.TabIndex = 13;
             // 
             // tableLayoutPanel20
@@ -877,7 +877,7 @@
             tableLayoutPanel20.RowCount = 1;
             tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel20.RowStyles.Add(new RowStyle(SizeType.Absolute, 113F));
-            tableLayoutPanel20.Size = new Size(452, 105);
+            tableLayoutPanel20.Size = new Size(452, 119);
             tableLayoutPanel20.TabIndex = 16;
             // 
             // flowLayoutPanel5
@@ -889,7 +889,7 @@
             flowLayoutPanel5.Location = new Point(70, 5);
             flowLayoutPanel5.Margin = new Padding(4, 5, 4, 5);
             flowLayoutPanel5.Name = "flowLayoutPanel5";
-            flowLayoutPanel5.Size = new Size(378, 95);
+            flowLayoutPanel5.Size = new Size(378, 109);
             flowLayoutPanel5.TabIndex = 15;
             // 
             // label20
@@ -929,10 +929,10 @@
             // 
             pictureBox17.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
-            pictureBox17.Location = new Point(4, 5);
+            pictureBox17.Location = new Point(4, 8);
             pictureBox17.Margin = new Padding(4, 5, 4, 5);
             pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(58, 95);
+            pictureBox17.Size = new Size(58, 103);
             pictureBox17.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox17.TabIndex = 9;
             pictureBox17.TabStop = false;
@@ -942,15 +942,15 @@
             tableLayoutPanel19.ColumnCount = 2;
             tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 14.62141F));
             tableLayoutPanel19.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85.37859F));
-            tableLayoutPanel19.Controls.Add(flowLayoutPanel4, 1, 0);
             tableLayoutPanel19.Controls.Add(pictureBox16, 0, 0);
+            tableLayoutPanel19.Controls.Add(flowLayoutPanel4, 1, 0);
             tableLayoutPanel19.Location = new Point(444, 5);
             tableLayoutPanel19.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel19.Name = "tableLayoutPanel19";
             tableLayoutPanel19.RowCount = 1;
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel19.RowStyles.Add(new RowStyle(SizeType.Absolute, 113F));
-            tableLayoutPanel19.Size = new Size(511, 105);
+            tableLayoutPanel19.Size = new Size(511, 119);
             tableLayoutPanel19.TabIndex = 17;
             // 
             // flowLayoutPanel4
@@ -962,7 +962,7 @@
             flowLayoutPanel4.Location = new Point(78, 5);
             flowLayoutPanel4.Margin = new Padding(4, 5, 4, 5);
             flowLayoutPanel4.Name = "flowLayoutPanel4";
-            flowLayoutPanel4.Size = new Size(429, 95);
+            flowLayoutPanel4.Size = new Size(429, 108);
             flowLayoutPanel4.TabIndex = 15;
             // 
             // label17
@@ -1002,7 +1002,7 @@
             // 
             pictureBox16.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
-            pictureBox16.Location = new Point(4, 5);
+            pictureBox16.Location = new Point(4, 12);
             pictureBox16.Margin = new Padding(4, 5, 4, 5);
             pictureBox16.Name = "pictureBox16";
             pictureBox16.Size = new Size(66, 95);
@@ -1023,7 +1023,7 @@
             tableLayoutPanel18.RowCount = 1;
             tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel18.RowStyles.Add(new RowStyle(SizeType.Absolute, 113F));
-            tableLayoutPanel18.Size = new Size(419, 105);
+            tableLayoutPanel18.Size = new Size(421, 119);
             tableLayoutPanel18.TabIndex = 14;
             // 
             // flowLayoutPanel3
@@ -1032,10 +1032,10 @@
             flowLayoutPanel3.Controls.Add(label14);
             flowLayoutPanel3.Controls.Add(label15);
             flowLayoutPanel3.Controls.Add(label16);
-            flowLayoutPanel3.Location = new Point(65, 5);
+            flowLayoutPanel3.Location = new Point(65, 8);
             flowLayoutPanel3.Margin = new Padding(4, 5, 4, 5);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(350, 95);
+            flowLayoutPanel3.Size = new Size(352, 103);
             flowLayoutPanel3.TabIndex = 15;
             // 
             // tableLayoutPanel21
@@ -1421,6 +1421,7 @@
             button1.TabIndex = 14;
             button1.Text = "+Tambahkan Jurnal";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // panel3
             // 

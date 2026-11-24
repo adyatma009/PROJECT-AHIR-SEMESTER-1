@@ -96,5 +96,11 @@ namespace PROJECT_AHIR__SEMESTER_1
             statistik.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FORM_TAMBAHKAN_JURNAL form_tambahkan_jurnal = new FORM_TAMBAHKAN_JURNAL();
+            form_tambahkan_jurnal.Show();
+        }
     }
 }
