@@ -38,16 +38,7 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         public void TampilkanDataProfil()
         {
-            NamaLengkap = textBox1.Text;
-            AsalSekolah = textBox2.Text;
-            Email = textBox3.Text;
-            Nisn = textBox4.Text;
-            KelasJurusan = textBox5.Text;
-            NoWhatsapp = textBox6.Text;
-            AlamatMagang = textBox7.Text;
-            Pembimbing = textBox8.Text;
-            PeriodeMagang = textBox9.Text;
-            JamKerja = textBox10.Text;
+
         }
 
 
@@ -141,21 +132,6 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            NamaLengkap = textBox1.Text;
-            AsalSekolah = textBox2.Text;
-            Email = textBox3.Text;
-            Nisn = textBox4.Text;
-            KelasJurusan = textBox5.Text;
-            NoWhatsapp = textBox6.Text;
-            AlamatMagang = textBox7.Text;
-            TempatMagang = textBox8.Text;
-            Pembimbing = textBox9.Text;
-            JamKerja = textBox10.Text;
-            NamaLengkap = label17.Text;
-            NamaLengkap = label28.Text;
-            TampilkanDataProfil();
-
-            MessageBox.Show("Profil berhasil diperbarui!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -168,16 +144,7 @@ namespace PROJECT_AHIR__SEMESTER_1
         {
             try
             {
-
-
-                string alamat = textBox7.Text;
-                if (string.IsNullOrWhiteSpace(alamat))
-                {
-                    alamat = TempatMagang;
-                }
-
-
-                string urlMaps = "https://www.google.com/maps/search/?api=1&query=" + Uri.EscapeDataString(alamat);
+                string urlMaps = "https://maps.app.goo.gl/5j5rE5RJ8cCkQQhw6";
 
 
                 System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
