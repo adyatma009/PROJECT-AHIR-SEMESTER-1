@@ -78,8 +78,19 @@ namespace PROJECT_AHIR__SEMESTER_1
             this.Hide();
         }
 
+
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
+
+        }
+        
+
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
 
         }
     }
