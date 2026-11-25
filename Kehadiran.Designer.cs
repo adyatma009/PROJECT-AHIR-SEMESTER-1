@@ -159,7 +159,7 @@
             label1.Font = new Font("Hanken Grotesk", 13.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(3, 0);
             label1.Name = "label1";
-            label1.Size = new Size(145, 36);
+            label1.Size = new Size(100, 25);
             label1.TabIndex = 11;
             label1.Text = "Kehadiran";
             // 
@@ -167,9 +167,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Hanken Grotesk", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(3, 36);
+            label2.Location = new Point(109, 0);
             label2.Name = "label2";
-            label2.Size = new Size(378, 23);
+            label2.Size = new Size(251, 16);
             label2.TabIndex = 11;
             label2.Text = "Absen harian dengan foto dokumentasi lokasi";
             label2.Click += label2_Click;
@@ -220,7 +220,7 @@
             label24.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label24.Location = new Point(109, 534);
             label24.Name = "label24";
-            label24.Size = new Size(329, 25);
+            label24.Size = new Size(217, 15);
             label24.TabIndex = 13;
             label24.Text = "Unggah foto dokumentasi / selfie lokasi";
             // 
@@ -310,9 +310,9 @@
             label19.Anchor = AnchorStyles.Left;
             label19.AutoSize = true;
             label19.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label19.Location = new Point(3, 118);
+            label19.Location = new Point(3, 123);
             label19.Name = "label19";
-            label19.Size = new Size(57, 25);
+            label19.Size = new Size(38, 15);
             label19.TabIndex = 16;
             label19.Text = "16.00";
             // 
@@ -321,9 +321,9 @@
             label18.Anchor = AnchorStyles.Left;
             label18.AutoSize = true;
             label18.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label18.Location = new Point(3, 80);
+            label18.Location = new Point(3, 85);
             label18.Name = "label18";
-            label18.Size = new Size(19, 25);
+            label18.Size = new Size(12, 15);
             label18.TabIndex = 15;
             label18.Text = "-";
             // 
@@ -332,9 +332,9 @@
             label17.Anchor = AnchorStyles.Left;
             label17.AutoSize = true;
             label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label17.Location = new Point(3, 43);
+            label17.Location = new Point(3, 48);
             label17.Name = "label17";
-            label17.Size = new Size(57, 25);
+            label17.Size = new Size(38, 15);
             label17.TabIndex = 14;
             label17.Text = "08.00";
             // 
@@ -343,9 +343,9 @@
             labelTiba.Anchor = AnchorStyles.Left;
             labelTiba.AutoSize = true;
             labelTiba.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelTiba.Location = new Point(3, 6);
+            labelTiba.Location = new Point(3, 11);
             labelTiba.Name = "labelTiba";
-            labelTiba.Size = new Size(57, 25);
+            labelTiba.Size = new Size(38, 15);
             labelTiba.TabIndex = 13;
             labelTiba.Text = "07.58";
             // 
@@ -372,9 +372,9 @@
             label23.Anchor = AnchorStyles.Left;
             label23.AutoSize = true;
             label23.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label23.Location = new Point(3, 118);
+            label23.Location = new Point(3, 123);
             label23.Name = "label23";
-            label23.Size = new Size(205, 25);
+            label23.Size = new Size(138, 15);
             label23.TabIndex = 3;
             label23.Text = "Jam pulang (menunggu)";
             // 
@@ -383,9 +383,9 @@
             label22.Anchor = AnchorStyles.Left;
             label22.AutoSize = true;
             label22.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label22.Location = new Point(3, 80);
+            label22.Location = new Point(3, 85);
             label22.Name = "label22";
-            label22.Size = new Size(201, 25);
+            label22.Size = new Size(135, 15);
             label22.TabIndex = 2;
             label22.Text = "Jurnal harian belum diisi";
             // 
@@ -394,9 +394,9 @@
             label21.Anchor = AnchorStyles.Left;
             label21.AutoSize = true;
             label21.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label21.Location = new Point(3, 43);
+            label21.Location = new Point(3, 48);
             label21.Name = "label21";
-            label21.Size = new Size(148, 25);
+            label21.Size = new Size(99, 15);
             label21.TabIndex = 1;
             label21.Text = "Jam kerja dimulai";
             // 
@@ -405,9 +405,9 @@
             label20.Anchor = AnchorStyles.Left;
             label20.AutoSize = true;
             label20.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label20.Location = new Point(3, 6);
+            label20.Location = new Point(3, 11);
             label20.Name = "label20";
-            label20.Size = new Size(186, 25);
+            label20.Size = new Size(123, 15);
             label20.TabIndex = 0;
             label20.Text = "Tiba di lokasi magang";
             // 
@@ -475,7 +475,7 @@
             label6.Font = new Font("Hanken Grotesk", 10.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.Location = new Point(5, 241);
             label6.Name = "label6";
-            label6.Size = new Size(281, 29);
+            label6.Size = new Size(194, 20);
             label6.TabIndex = 3;
             label6.Text = "Ringkasan Aktivitas Hari Ini";
             // 
@@ -485,7 +485,7 @@
             labelTanggal.Font = new Font("Hanken Grotesk", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelTanggal.Location = new Point(120, 173);
             labelTanggal.Name = "labelTanggal";
-            labelTanggal.Size = new Size(242, 26);
+            labelTanggal.Size = new Size(172, 18);
             labelTanggal.TabIndex = 2;
             labelTanggal.Text = "Senin, 23 November 2026";
             // 
@@ -496,7 +496,7 @@
             lblJam.ForeColor = SystemColors.MenuHighlight;
             lblJam.Location = new Point(22, 57);
             lblJam.Name = "lblJam";
-            lblJam.Size = new Size(436, 128);
+            lblJam.Size = new Size(293, 86);
             lblJam.TabIndex = 1;
             lblJam.Text = "07:58:32";
             // 
@@ -506,7 +506,7 @@
             label3.Font = new Font("Hanken Grotesk", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(5, 9);
             label3.Name = "label3";
-            label3.Size = new Size(137, 26);
+            label3.Size = new Size(97, 18);
             label3.TabIndex = 0;
             label3.Text = "Absen Hari ini";
             // 
@@ -537,7 +537,7 @@
             label27.Font = new Font("Segoe UI Historic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label27.Location = new Point(23, 28);
             label27.Name = "label27";
-            label27.Size = new Size(56, 25);
+            label27.Size = new Size(36, 15);
             label27.TabIndex = 16;
             label27.Text = "Siswa";
             label27.Click += label27_Click;
@@ -548,7 +548,7 @@
             label26.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label26.Location = new Point(23, 5);
             label26.Name = "label26";
-            label26.Size = new Size(167, 25);
+            label26.Size = new Size(108, 15);
             label26.TabIndex = 15;
             label26.Text = "Ahmad Rizky Putra";
             // 
@@ -582,7 +582,7 @@
             dataGridView1.Location = new Point(35, 97);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(871, 625);
+            dataGridView1.Size = new Size(814, 625);
             dataGridView1.TabIndex = 5;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -657,7 +657,7 @@
             label25.Font = new Font("Hanken Grotesk", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label25.Location = new Point(3, 1);
             label25.Name = "label25";
-            label25.Size = new Size(219, 31);
+            label25.Size = new Size(149, 21);
             label25.TabIndex = 0;
             label25.Text = "Riwayat Kehadiran";
             // 
@@ -1051,7 +1051,7 @@
             // 
             // Kehadiran
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1924, 1050);
