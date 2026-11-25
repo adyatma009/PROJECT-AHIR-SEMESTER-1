@@ -74,6 +74,9 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void button7_Click(object sender, EventArgs e)
         {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
 
         }
 
@@ -101,6 +104,89 @@ namespace PROJECT_AHIR__SEMESTER_1
         {
             FORM_TAMBAHKAN_JURNAL form_tambahkan_jurnal = new FORM_TAMBAHKAN_JURNAL();
             form_tambahkan_jurnal.Show();
+        }
+
+        private void tableLayoutPanel17_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label41_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+            this.Hide();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Statistik statistik = new Statistik();
+            statistik.Show();
+            this.Hide();
         }
     }
 }

@@ -20,7 +20,7 @@
 			base.Dispose(disposing);
 		}
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
 		/// <summary>
 		/// Required method for Designer support - do not modify
@@ -1155,43 +1155,14 @@
 			ResumeLayout(false);
 		}
 
-		#endregion
-
-		private Panel panel1;
-		private PictureBox pictureBox1;
-		private TableLayoutPanel tableLayoutPanel3;
-		private TableLayoutPanel tableLayoutPanel13;
-		private TableLayoutPanel tableLayoutPanel8;
-		private Label label8;
-		private PictureBox pictureBox9;
-		private TableLayoutPanel tableLayoutPanel9;
-		private PictureBox pictureBox10;
-		private Label label9;
-		private TableLayoutPanel tableLayoutPanel11;
-		private TableLayoutPanel tableLayoutPanel12;
-		private TableLayoutPanel tableLayoutPanel5;
-		private PictureBox pictureBox11;
-		private Label label10;
-		private TableLayoutPanel tableLayoutPanel6;
-		private PictureBox pictureBox12;
-		private Label label11;
-		private TableLayoutPanel tableLayoutPanel4;
-		private PictureBox pictureBox13;
-		private Label label12;
-		private TableLayoutPanel tableLayoutPanel10;
-		private PictureBox pictureBox15;
-		private Label label14;
-		private TableLayoutPanel tableLayoutPanel14;
-		private PictureBox pictureBox16;
-		private Label label15;
-		private PictureBox pictureBox18;
-		private FlowLayoutPanel flowLayoutPanel1;
+        #endregion
+        private FlowLayoutPanel flowLayoutPanel1;
 		private Label label1;
 		private Label label2;
 		private Panel panel2;
 		private Label label3;
-		private Label label4;
-		private Label label5;
+		private Label lblJam;
+		private Label labelTanggal;
 		private Label label6;
 		private Panel panel3;
 		private TableLayoutPanel tableLayoutPanel1;
@@ -1199,10 +1170,10 @@
 		private TableLayoutPanel tableLayoutPanel16;
 		private Button button3;
 		private Button button2;
-		private Button button1;
+		private Button buttonHadir;
 		private PictureBox pictureBox2;
 		private Panel panel4;
-		private Label label7;
+		private Label labelTiba;
 		private Label label19;
 		private Label label18;
 		private Label label17;
@@ -1220,12 +1191,6 @@
 		private Button button5;
 		private Button button4;
 		private DataGridView dataGridView1;
-		private DataGridViewTextBoxColumn Tanggal;
-		private DataGridViewTextBoxColumn Masuk;
-		private DataGridViewTextBoxColumn Pulang;
-		private DataGridViewTextBoxColumn Foto;
-		private DataGridViewTextBoxColumn Column1;
-		private DataGridViewTextBoxColumn Column2;
 		private Label label27;
 		private Label label26;
 		private PictureBox pictureBox5;

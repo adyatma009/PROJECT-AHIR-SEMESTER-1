@@ -1550,20 +1550,12 @@
         private Label label33;
         private PictureBox pictureBox19;
         private PictureBox pictureBox1;
-        private Button button5;
-        private TextBox textBox1;
         private Label label2;
         private Panel panel3;
-        private Button button1;
-        private TextBox textBox6;
         private Label label7;
-        private TextBox textBox5;
         private Label label6;
-        private TextBox textBox4;
         private Label label5;
-        private TextBox textBox3;
         private Label label4;
-        private TextBox textBox2;
         private Label label3;
         private Label label22;
         private Panel panel5;
@@ -1571,12 +1563,8 @@
         private Label label21;
         private Button button2;
         private PictureBox pictureBox2;
-        private TextBox textBox10;
         private Label label27;
-        private TextBox textBox9;
         private Label label26;
-        private TextBox textBox8;
-        private TextBox textBox7;
         private Label label25;
         private Label label24;
         private Label label28;
@@ -1619,5 +1607,21 @@
         private TableLayoutPanel tableLayoutPanel22;
         private PictureBox pictureBox21;
         private Button button9;
+        private Label label13;
+        private Label label34;
+        private Label label18;
+        private Label label16;
+        private Label label39;
+        private Label label38;
+        private Label label37;
+        private Label label36;
+        private Label label35;
+        private Label label40;
+        private Label label44;
+        private Label label43;
+        private Label label42;
+        private Label label41;
+        private Button button5;
+        private Button button1;
     }
 }
