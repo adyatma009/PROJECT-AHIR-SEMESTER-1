@@ -29,7 +29,7 @@ namespace PROJECT_AHIR__SEMESTER_1
         public Statistik()
         {
             InitializeComponent();
-            this.DoubleBuffered = true; 
+            this.DoubleBuffered = true;
         }
         private void Statistik_Load(object sender, EventArgs e)
         {
@@ -38,22 +38,16 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         public void TampilkanDataProfil()
         {
-            label17.Text = NamaLengkap;
-            label32.Text = Nisn;
-
-
-            textBox1.Text = NamaLengkap;
-            textBox2.Text = AsalSekolah;
-            textBox3.Text = Email;
-            textBox4.Text = Nisn;
-            textBox5.Text = KelasJurusan;
-            textBox6.Text = NoWhatsapp;
-            textBox7.Text = AlamatMagang;
-            textBox8.Text = Pembimbing;
-            textBox9.Text = PeriodeMagang;
-            textBox10.Text = JamKerja;
-
-            
+            NamaLengkap = textBox1.Text;
+            AsalSekolah = textBox2.Text;
+            Email = textBox3.Text;
+            Nisn = textBox4.Text;
+            KelasJurusan = textBox5.Text;
+            NoWhatsapp = textBox6.Text;
+            AlamatMagang = textBox7.Text;
+            Pembimbing = textBox8.Text;
+            PeriodeMagang = textBox9.Text;
+            JamKerja = textBox10.Text;
         }
 
 
@@ -147,15 +141,75 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //txtnama.Text = "Ahmad Rizky Putra";
-            //txtasalsekolah.Text = "SMK Negeri 1 Kandeman";
-            //txtemail.Text = "ahmadrp@gmail.com";
-            //txtnisn.Text = "234566";
-            //txtkelasjurusan.Text = "XI RPL";
-            //txtwa.Text = "0987998877";
+            NamaLengkap = textBox1.Text;
+            AsalSekolah = textBox2.Text;
+            Email = textBox3.Text;
+            Nisn = textBox4.Text;
+            KelasJurusan = textBox5.Text;
+            NoWhatsapp = textBox6.Text;
+            AlamatMagang = textBox7.Text;
+            TempatMagang = textBox8.Text;
+            Pembimbing = textBox9.Text;
+            JamKerja = textBox10.Text;
+            NamaLengkap = label17.Text;
+            NamaLengkap = label28.Text;
+            TampilkanDataProfil();
+
+            MessageBox.Show("Profil berhasil diperbarui!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
 
 
-           
+                string alamat = textBox7.Text;
+                if (string.IsNullOrWhiteSpace(alamat))
+                {
+                    alamat = TempatMagang;
+                }
+
+
+                string urlMaps = "https://www.google.com/maps/search/?api=1&query=" + Uri.EscapeDataString(alamat);
+
+
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = urlMaps,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Gagal membuka Maps: " + ex.Message, "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

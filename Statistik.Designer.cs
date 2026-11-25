@@ -607,6 +607,7 @@
             button1.TabIndex = 18;
             button1.Text = "Ubah Foto Profil";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // pictureBox19
             // 
@@ -774,6 +775,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(316, 31);
             textBox1.TabIndex = 12;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
@@ -1031,6 +1033,7 @@
             button2.TabIndex = 17;
             button2.Text = "Buka di Maps";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // pictureBox2
             // 
@@ -1381,6 +1384,7 @@
             button8.TabIndex = 22;
             button8.Text = "Kehadiran";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // pictureBox17
             // 
@@ -1433,6 +1437,7 @@
             button9.TabIndex = 11;
             button9.Text = "Guru Pembimbing";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // Statistik
             // 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace PROJECT_AHIR__SEMESTER_1
         public Form4()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -78,20 +80,81 @@ namespace PROJECT_AHIR__SEMESTER_1
             this.Hide();
         }
 
-
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
-        
 
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
+        }
 
         private void button7_Click(object sender, EventArgs e)
         {
             Login login = new Login();
             login.Show();
             this.Hide();
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
 
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            string tanggal = textBox1.Text;
+            string jamMulai = textBox2.Text;
+            string jamSelesai = textBox3.Text;
+            string judul = textBox4.Text;
+            string deskripsi = textBox5.Text;
+
+            if (string.IsNullOrWhiteSpace(tanggal) || string.IsNullOrWhiteSpace(jamMulai) ||
+                string.IsNullOrWhiteSpace(jamSelesai) || string.IsNullOrWhiteSpace(judul) ||
+                string.IsNullOrWhiteSpace(deskripsi))
+            {
+                MessageBox.Show("Pastikan Tidak Ada yang kosong!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Jika kolom di form Kehadiran belum dibuat sama sekali, buat sekali saja di sini
+            if (Kehadiran.dataJurnalKehadiran.Columns.Count == 0)
+            {
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Tanggal");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Jam Mulai");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Jam Selesai");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Judul Kegiatan");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Deskripsi");
+            }
+
+            // Memasukkan data baru ke tabel global Kehadiran
+            Kehadiran.dataJurnalKehadiran.Rows.Add(tanggal, jamMulai, jamSelesai, judul, deskripsi);
+
+            MessageBox.Show("Jurnal harian berhasil disimpan!\n\n" + "Tanggal: " + tanggal + "\n" +
+                           "Jam: " + jamMulai + " - " + jamSelesai + "\n" +
+                           "Kegiatan: " + judul,
+                           "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            BersihkanForm();
+        }
+        private void BersihkanForm()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+        }
+        
     }
 }
