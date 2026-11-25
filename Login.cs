@@ -58,7 +58,13 @@ namespace PROJECT_AHIR__SEMESTER_1
                 return;
             }
 
-           
+           if (user == "Ahmad" && pass == "12345")
+            {
+                MessageBox.Show("Login Berhasil !", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Form2 form2 = new Form2();
+                form2.Show();
+                this.Hide();
+            }
             
             MessageBox.Show("Login Berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Form2 formUtama = new Form2();

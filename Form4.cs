@@ -128,7 +128,14 @@ namespace PROJECT_AHIR__SEMESTER_1
             }
 
             
-           
+            if (Kehadiran.dataJurnalKehadiran.Columns.Count == 0)
+            {
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Tanggal");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Jam Mulai");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Jam Selesai");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Judul Kegiatan");
+                Kehadiran.dataJurnalKehadiran.Columns.Add("Deskripsi");
+            }
 
             // Memasukkan data baru ke tabel global Kehadiran
             Kehadiran.dataJurnalKehadiran.Rows.Add(tanggal, jamMulai, jamSelesai, judul, deskripsi);

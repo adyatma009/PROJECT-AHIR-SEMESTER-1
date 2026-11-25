@@ -13,19 +13,6 @@ namespace PROJECT_AHIR__SEMESTER_1
 {
     public partial class Statistik : Form
     {
-        public static string NamaLengkap = "Nama Lengkap";
-        public static string AsalSekolah = "";
-        public static string Email = "";
-
-        public static string Nisn = "Isilah NISN di Data Siswa";
-        public static string KelasJurusan = "";
-        public static string NoWhatsapp = "";
-        public static string TempatMagang = "PT Nusantara Digital Solusi";
-        public static string AlamatMagang = "";
-        public static string PeriodeMagang = "";
-        public static string Pembimbing = "";
-        public static string JamKerja = "";
-
         public Statistik()
         {
             InitializeComponent();
