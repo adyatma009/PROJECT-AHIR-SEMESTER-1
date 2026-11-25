@@ -35,7 +35,6 @@
             linkLabel1 = new LinkLabel();
             textBox2 = new TextBox();
             label2 = new Label();
-            checkBox1 = new CheckBox();
             label4 = new Label();
             button1 = new Button();
             label3 = new Label();
@@ -51,6 +50,8 @@
             panel4 = new Panel();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
+            textBox3 = new TextBox();
+            label8 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -63,12 +64,13 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(textBox3);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(textBox2);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(checkBox1);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label3);
@@ -90,9 +92,9 @@
             label7.Location = new Point(125, 357);
             label7.Margin = new Padding(6, 0, 6, 0);
             label7.Name = "label7";
-            label7.Size = new Size(150, 38);
+            label7.Size = new Size(89, 38);
             label7.TabIndex = 18;
-            label7.Text = "Username";
+            label7.Text = "Email";
             // 
             // textBox1
             // 
@@ -139,17 +141,6 @@
             label2.Text = "Password";
             label2.Click += label2_Click;
             // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(121, 605);
-            checkBox1.Margin = new Padding(4, 5, 4, 5);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(154, 29);
-            checkBox1.TabIndex = 16;
-            checkBox1.Text = "Remember Me";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
             // label4
             // 
             label4.Anchor = AnchorStyles.Bottom;
@@ -165,7 +156,7 @@
             // button1
             // 
             button1.Font = new Font("Hanken Grotesk", 10.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(327, 659);
+            button1.Location = new Point(339, 790);
             button1.Margin = new Padding(6, 8, 6, 8);
             button1.Name = "button1";
             button1.Size = new Size(190, 59);
@@ -322,6 +313,28 @@
             pictureBox3.TabIndex = 13;
             pictureBox3.TabStop = false;
             // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(121, 689);
+            textBox3.Margin = new Padding(6, 8, 6, 8);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.PasswordChar = '*';
+            textBox3.Size = new Size(608, 49);
+            textBox3.TabIndex = 19;
+            // 
+            // label8
+            // 
+            label8.Anchor = AnchorStyles.Bottom;
+            label8.AutoSize = true;
+            label8.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(121, 643);
+            label8.Margin = new Padding(6, 0, 6, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(80, 38);
+            label8.TabIndex = 20;
+            label8.Text = "NISN";
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -356,7 +369,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private CheckBox checkBox1;
         private Button button1;
         private Panel panel2;
         private Panel panel3;
@@ -370,5 +382,7 @@
         private PictureBox pictureBox4;
         private Label label6;
         private Label label7;
+        private Label label8;
+        private TextBox textBox3;
     }
 }
