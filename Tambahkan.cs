@@ -33,7 +33,7 @@ namespace PROJECT_AHIR__SEMESTER_1
         {
             string text = textBox1.Text.Trim();
             string text2 = textBox2.Text.Trim();
-        
+
 
             if (text == "" || text2 == "")
             {
@@ -44,13 +44,20 @@ namespace PROJECT_AHIR__SEMESTER_1
 
 
             MessageBox.Show(" Berhasil menyimpan jurnal!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
-          
+
         }
 
         private void BersihkanForm()
         {
             textBox1.Clear();
             textBox2.Clear();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide()
         }
     }
 }

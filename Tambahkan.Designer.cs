@@ -118,6 +118,7 @@
             button2.TabIndex = 9;
             button2.Text = "Batal";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // panel1
             // 
