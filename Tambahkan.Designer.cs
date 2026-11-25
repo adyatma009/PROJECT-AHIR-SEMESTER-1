@@ -142,7 +142,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(1062, 377);
+            ClientSize = new Size(1062, 418);
             Controls.Add(panel1);
             Name = "FORM_TAMBAHKAN_JURNAL";
             Text = "FORM_TAMBAHKAN_JURNAL";
