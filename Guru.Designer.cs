@@ -1113,7 +1113,7 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 153F));
-            tableLayoutPanel1.Size = new Size(386, 822);
+            tableLayoutPanel1.Size = new Size(386, 800);
             tableLayoutPanel1.TabIndex = 63;
             // 
             // tableLayoutPanel4
@@ -1125,7 +1125,7 @@
             tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 29F));
             tableLayoutPanel4.Controls.Add(tableLayoutPanel7, 0, 1);
             tableLayoutPanel4.Controls.Add(tableLayoutPanel15, 0, 0);
-            tableLayoutPanel4.Location = new Point(5, 673);
+            tableLayoutPanel4.Location = new Point(5, 651);
             tableLayoutPanel4.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 2;
@@ -1231,7 +1231,7 @@
             tableLayoutPanel16.RowCount = 2;
             tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 14.5933018F));
             tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 85.4067F));
-            tableLayoutPanel16.Size = new Size(376, 656);
+            tableLayoutPanel16.Size = new Size(376, 634);
             tableLayoutPanel16.TabIndex = 21;
             // 
             // pictureBox5
@@ -1242,7 +1242,7 @@
             pictureBox5.Location = new Point(4, 5);
             pictureBox5.Margin = new Padding(4, 5, 4, 5);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(368, 85);
+            pictureBox5.Size = new Size(368, 82);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 8;
             pictureBox5.TabStop = false;
@@ -1259,7 +1259,7 @@
             tableLayoutPanel17.Controls.Add(tableLayoutPanel21, 0, 3);
             tableLayoutPanel17.Controls.Add(tableLayoutPanel22, 0, 4);
             tableLayoutPanel17.Dock = DockStyle.Left;
-            tableLayoutPanel17.Location = new Point(4, 100);
+            tableLayoutPanel17.Location = new Point(4, 97);
             tableLayoutPanel17.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel17.Name = "tableLayoutPanel17";
             tableLayoutPanel17.RowCount = 5;
@@ -1268,7 +1268,7 @@
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
             tableLayoutPanel17.RowStyles.Add(new RowStyle(SizeType.Absolute, 67F));
-            tableLayoutPanel17.Size = new Size(368, 551);
+            tableLayoutPanel17.Size = new Size(368, 532);
             tableLayoutPanel17.TabIndex = 22;
             // 
             // tableLayoutPanel18
@@ -1483,6 +1483,8 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            AutoSize = true;
             ClientSize = new Size(1720, 822);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(flowLayoutPanel1);
@@ -1492,7 +1494,9 @@
             Controls.Add(panel1);
             Margin = new Padding(4);
             Name = "Guru";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = " ";
+            WindowState = FormWindowState.Maximized;
             Load += Guru_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();

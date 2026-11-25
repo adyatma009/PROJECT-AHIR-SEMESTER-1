@@ -69,6 +69,9 @@
             pictureBox4 = new PictureBox();
             panel5 = new Panel();
             dataGridView1 = new DataGridView();
+            Hadir = new DataGridViewTextBoxColumn();
+            Izin = new DataGridViewTextBoxColumn();
+            Sakit = new DataGridViewTextBoxColumn();
             button7 = new Button();
             button6 = new Button();
             button5 = new Button();
@@ -101,11 +104,6 @@
             tableLayoutPanel22 = new TableLayoutPanel();
             pictureBox13 = new PictureBox();
             button13 = new Button();
-            Tanggal = new DataGridViewTextBoxColumn();
-            jamMulai = new DataGridViewTextBoxColumn();
-            jamSelesai = new DataGridViewTextBoxColumn();
-            Deskripsi = new DataGridViewTextBoxColumn();
-            judul = new DataGridViewTextBoxColumn();
             flowLayoutPanel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
@@ -245,6 +243,7 @@
             button3.TabIndex = 16;
             button3.Text = "Sakit";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -254,6 +253,7 @@
             button2.TabIndex = 15;
             button2.Text = "Izin";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // buttonHadir
             // 
@@ -266,6 +266,7 @@
             buttonHadir.TabIndex = 14;
             buttonHadir.Text = "Hadir";
             buttonHadir.UseVisualStyleBackColor = false;
+            buttonHadir.Click += buttonHadir_Click;
             // 
             // pictureBox2
             // 
@@ -577,13 +578,34 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Tanggal, jamMulai, jamSelesai, Deskripsi, judul });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Hadir, Izin, Sakit });
             dataGridView1.Location = new Point(35, 97);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(871, 625);
             dataGridView1.TabIndex = 5;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Hadir
+            // 
+            Hadir.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Hadir.HeaderText = "Hadir";
+            Hadir.MinimumWidth = 8;
+            Hadir.Name = "Hadir";
+            // 
+            // Izin
+            // 
+            Izin.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Izin.HeaderText = "Izin";
+            Izin.MinimumWidth = 8;
+            Izin.Name = "Izin";
+            // 
+            // Sakit
+            // 
+            Sakit.HeaderText = "Sakit";
+            Sakit.MinimumWidth = 8;
+            Sakit.Name = "Sakit";
+            Sakit.Width = 150;
             // 
             // button7
             // 
@@ -643,6 +665,7 @@
             // 
             timer1.Enabled = true;
             timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
             // 
             // tableLayoutPanel3
             // 
@@ -1026,41 +1049,6 @@
             button13.UseVisualStyleBackColor = true;
             button13.Click += button13_Click;
             // 
-            // Tanggal
-            // 
-            Tanggal.HeaderText = "Tanggal";
-            Tanggal.MinimumWidth = 8;
-            Tanggal.Name = "Tanggal";
-            Tanggal.Width = 150;
-            // 
-            // jamMulai
-            // 
-            jamMulai.HeaderText = "Jam Mulai";
-            jamMulai.MinimumWidth = 8;
-            jamMulai.Name = "jamMulai";
-            jamMulai.Width = 150;
-            // 
-            // jamSelesai
-            // 
-            jamSelesai.HeaderText = "Jam Selesai";
-            jamSelesai.MinimumWidth = 8;
-            jamSelesai.Name = "jamSelesai";
-            jamSelesai.Width = 150;
-            // 
-            // Deskripsi
-            // 
-            Deskripsi.HeaderText = "Deskripsi";
-            Deskripsi.MinimumWidth = 8;
-            Deskripsi.Name = "Deskripsi";
-            Deskripsi.Width = 150;
-            // 
-            // judul
-            // 
-            judul.HeaderText = "Judul";
-            judul.MinimumWidth = 8;
-            judul.Name = "judul";
-            judul.Width = 150;
-            // 
             // Kehadiran
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
@@ -1199,10 +1187,8 @@
         private TableLayoutPanel tableLayoutPanel22;
         private PictureBox pictureBox13;
         private Button button13;
-        private DataGridViewTextBoxColumn Tanggal;
-        private DataGridViewTextBoxColumn jamMulai;
-        private DataGridViewTextBoxColumn jamSelesai;
-        private DataGridViewTextBoxColumn Deskripsi;
-        private DataGridViewTextBoxColumn judul;
+        private DataGridViewTextBoxColumn Hadir;
+        private DataGridViewTextBoxColumn Izin;
+        private DataGridViewTextBoxColumn Sakit;
     }
 }

@@ -28,5 +28,29 @@ namespace PROJECT_AHIR__SEMESTER_1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string text = textBox1.Text.Trim();
+            string text2 = textBox2.Text.Trim();
+        
+
+            if (text == "" || text2 == "")
+            {
+                MessageBox.Show("Pastikan semua sufdah di isi!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
+
+            MessageBox.Show(" Berhasil menyimpan jurnal!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
+          
+        }
+
+        private void BersihkanForm()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+        }
     }
 }

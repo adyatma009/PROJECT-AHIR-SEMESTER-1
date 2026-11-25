@@ -76,14 +76,14 @@ namespace PROJECT_AHIR__SEMESTER_1
         {
             Form2 form2 = new Form2();
             form2.Show();
-            this.Hide9;
+            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             Statistik statistik = new Statistik();
             statistik.Show();
-            this.Head();
+            this.Hide();
         }
 
         private void button7_Click(object sender, EventArgs e)

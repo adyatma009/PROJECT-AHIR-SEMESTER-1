@@ -20,19 +20,7 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void Kehadiran_Load(object sender, EventArgs e)
         {
-            // Jika tabelnya belum punya kolom, kita buatkan kolomnya otomatis
-            if (dataJurnalKehadiran.Columns.Count == 0)
-            {
-                dataJurnalKehadiran.Columns.Add("Tanggal");
-                dataJurnalKehadiran.Columns.Add("Jam Mulai");
-                dataJurnalKehadiran.Columns.Add("Jam Selesai");
-                dataJurnalKehadiran.Columns.Add("Judul Kegiatan");
-                dataJurnalKehadiran.Columns.Add("Deskripsi");
-            }
-
-            // Hubungkan wadah data ini ke DataGridView yang ada di form Kehadiran
-            // (Pastikan 'dataGridView1' disesuaikan dengan nama asli DGV di form Kehadiran Anda)
-            dataGridView1.DataSource = dataJurnalKehadiran;
+            
         }
 
 
@@ -136,6 +124,26 @@ namespace PROJECT_AHIR__SEMESTER_1
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblJam.Text = DateTime.Now.ToString("HH:mm:ss");
+        }
+
+        private void buttonHadir_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add("Hadir", "--", "");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add("-", "Izin", "-");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add("-", "-", "Sakit");
         }
     }
 }
