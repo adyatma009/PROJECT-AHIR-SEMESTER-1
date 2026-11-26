@@ -13,23 +13,10 @@ namespace PROJECT_AHIR__SEMESTER_1
 {
     public partial class Statistik : Form
     {
-        public static string NamaLengkap = "Nama Lengkap";
-        public static string AsalSekolah = "";
-        public static string Email = "";
-
-        public static string Nisn = "Isilah NISN di Data Siswa";
-        public static string KelasJurusan = "";
-        public static string NoWhatsapp = "";
-        public static string TempatMagang = "PT Nusantara Digital Solusi";
-        public static string AlamatMagang = "";
-        public static string PeriodeMagang = "";
-        public static string Pembimbing = "";
-        public static string JamKerja = "";
-
         public Statistik()
         {
             InitializeComponent();
-            this.DoubleBuffered = true; 
+            this.DoubleBuffered = true;
         }
         private void Statistik_Load(object sender, EventArgs e)
         {
@@ -38,22 +25,7 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         public void TampilkanDataProfil()
         {
-            label17.Text = NamaLengkap;
-            label32.Text = Nisn;
 
-
-            textBox1.Text = NamaLengkap;
-            textBox2.Text = AsalSekolah;
-            textBox3.Text = Email;
-            textBox4.Text = Nisn;
-            textBox5.Text = KelasJurusan;
-            textBox6.Text = NoWhatsapp;
-            textBox7.Text = AlamatMagang;
-            textBox8.Text = Pembimbing;
-            textBox9.Text = PeriodeMagang;
-            textBox10.Text = JamKerja;
-
-            
         }
 
 
@@ -147,15 +119,51 @@ namespace PROJECT_AHIR__SEMESTER_1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //txtnama.Text = "Ahmad Rizky Putra";
-            //txtasalsekolah.Text = "SMK Negeri 1 Kandeman";
-            //txtemail.Text = "ahmadrp@gmail.com";
-            //txtnisn.Text = "234566";
-            //txtkelasjurusan.Text = "XI RPL";
-            //txtwa.Text = "0987998877";
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string urlMaps = "https://maps.app.goo.gl/5j5rE5RJ8cCkQQhw6";
 
 
-           
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                {
+                    FileName = urlMaps,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Gagal membuka Maps: " + ex.Message, "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Kehadiran kehadiran = new Kehadiran();
+            kehadiran.Show();
+            this.Hide();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Guru guru = new Guru();
+            guru.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

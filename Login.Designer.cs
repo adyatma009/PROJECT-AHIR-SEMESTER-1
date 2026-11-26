@@ -30,12 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             panel1 = new Panel();
+            label8 = new Label();
+            textBox3 = new TextBox();
             label7 = new Label();
             textBox1 = new TextBox();
             linkLabel1 = new LinkLabel();
             textBox2 = new TextBox();
             label2 = new Label();
-            checkBox1 = new CheckBox();
             label4 = new Label();
             button1 = new Button();
             label3 = new Label();
@@ -51,6 +52,7 @@
             panel4 = new Panel();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
+            label6 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -63,40 +65,63 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(label5);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(label2);
             panel1.Controls.Add(linkLabel1);
             panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(checkBox1);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(flowLayoutPanel4);
             panel1.Controls.Add(panel3);
-            panel1.Controls.Add(label5);
-            panel1.Location = new Point(972, 101);
+            panel1.Location = new Point(1007, 169);
             panel1.Margin = new Padding(6, 8, 6, 8);
             panel1.Name = "panel1";
-            panel1.Size = new Size(833, 906);
+            panel1.Size = new Size(793, 741);
             panel1.TabIndex = 11;
+            // 
+            // label8
+            // 
+            label8.Anchor = AnchorStyles.Bottom;
+            label8.AutoSize = true;
+            label8.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(87, 394);
+            label8.Margin = new Padding(6, 0, 6, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(80, 38);
+            label8.TabIndex = 20;
+            label8.Text = "NISN";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(87, 440);
+            textBox3.Margin = new Padding(6, 8, 6, 8);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.PasswordChar = '*';
+            textBox3.Size = new Size(608, 49);
+            textBox3.TabIndex = 19;
             // 
             // label7
             // 
             label7.Anchor = AnchorStyles.Bottom;
             label7.AutoSize = true;
             label7.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(125, 357);
+            label7.Location = new Point(87, 180);
             label7.Margin = new Padding(6, 0, 6, 0);
             label7.Name = "label7";
-            label7.Size = new Size(150, 38);
+            label7.Size = new Size(89, 38);
             label7.TabIndex = 18;
-            label7.Text = "Username";
+            label7.Text = "Email";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(125, 403);
+            textBox1.Location = new Point(87, 226);
             textBox1.Margin = new Padding(6, 8, 6, 8);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -117,7 +142,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(125, 543);
+            textBox2.Location = new Point(87, 329);
             textBox2.Margin = new Padding(6, 8, 6, 8);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
@@ -131,7 +156,7 @@
             label2.Anchor = AnchorStyles.Bottom;
             label2.AutoSize = true;
             label2.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(121, 497);
+            label2.Location = new Point(87, 282);
             label2.Margin = new Padding(6, 0, 6, 0);
             label2.Name = "label2";
             label2.Size = new Size(144, 38);
@@ -139,23 +164,12 @@
             label2.Text = "Password";
             label2.Click += label2_Click;
             // 
-            // checkBox1
-            // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(121, 605);
-            checkBox1.Margin = new Padding(4, 5, 4, 5);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(154, 29);
-            checkBox1.TabIndex = 16;
-            checkBox1.Text = "Remember Me";
-            checkBox1.UseVisualStyleBackColor = true;
-            // 
             // label4
             // 
             label4.Anchor = AnchorStyles.Bottom;
             label4.AutoSize = true;
             label4.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(145, -174);
+            label4.Location = new Point(125, -339);
             label4.Margin = new Padding(6, 0, 6, 0);
             label4.Name = "label4";
             label4.Size = new Size(150, 38);
@@ -165,7 +179,7 @@
             // button1
             // 
             button1.Font = new Font("Hanken Grotesk", 10.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(327, 659);
+            button1.Location = new Point(306, 595);
             button1.Margin = new Padding(6, 8, 6, 8);
             button1.Name = "button1";
             button1.Size = new Size(190, 59);
@@ -179,7 +193,7 @@
             label3.Anchor = AnchorStyles.Bottom;
             label3.AutoSize = true;
             label3.Font = new Font("Hanken Grotesk", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(196, -375);
+            label3.Location = new Point(176, -540);
             label3.Margin = new Padding(6, 0, 6, 0);
             label3.Name = "label3";
             label3.Size = new Size(226, 23);
@@ -223,13 +237,15 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Hanken Grotesk", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(362, 173);
+            label5.Font = new Font("High Tower Text", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(267, 35);
             label5.Margin = new Padding(6, 0, 6, 0);
             label5.Name = "label5";
-            label5.Size = new Size(167, 73);
+            label5.Size = new Size(280, 112);
             label5.TabIndex = 9;
             label5.Text = "Login";
+            label5.Click += label5_Click;
             // 
             // pictureBox1
             // 
@@ -303,9 +319,9 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.WhatsApp_Image_2026_11_18_at_10_58_53;
-            pictureBox4.Location = new Point(26, 94);
+            pictureBox4.Location = new Point(42, 148);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(837, 929);
+            pictureBox4.Size = new Size(791, 750);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 13;
             pictureBox4.TabStop = false;
@@ -315,12 +331,23 @@
             // 
             pictureBox3.BackColor = Color.White;
             pictureBox3.Image = Properties.Resources.logo_pkl;
-            pictureBox3.Location = new Point(0, 3);
+            pictureBox3.Location = new Point(0, 0);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(252, 85);
+            pictureBox3.Size = new Size(231, 94);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 13;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click_1;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Arial Rounded MT Bold", 22F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(1110, 101);
+            label6.Name = "label6";
+            label6.Size = new Size(597, 51);
+            label6.TabIndex = 13;
+            label6.Text = "It's Good to Have You Here";
             // 
             // Login
             // 
@@ -329,6 +356,7 @@
             AutoScroll = true;
             BackColor = Color.White;
             ClientSize = new Size(1924, 1050);
+            Controls.Add(label6);
             Controls.Add(panel4);
             Controls.Add(panel1);
             Margin = new Padding(4, 5, 4, 5);
@@ -343,6 +371,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -356,7 +385,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private CheckBox checkBox1;
         private Button button1;
         private Panel panel2;
         private Panel panel3;
@@ -370,5 +398,7 @@
         private PictureBox pictureBox4;
         private Label label6;
         private Label label7;
+        private Label label8;
+        private TextBox textBox3;
     }
 }

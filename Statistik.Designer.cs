@@ -60,46 +60,35 @@
             pictureBox3 = new PictureBox();
             label32 = new Label();
             panel8 = new Panel();
-            panel7 = new Panel();
-            label31 = new Label();
-            panel6 = new Panel();
-            label30 = new Label();
-            panel4 = new Panel();
-            label29 = new Label();
+            label34 = new Label();
             label28 = new Label();
-            button1 = new Button();
             pictureBox19 = new PictureBox();
             label33 = new Label();
             label1 = new Label();
             panel14 = new Panel();
-            textBox6 = new TextBox();
+            label40 = new Label();
+            label39 = new Label();
+            label38 = new Label();
+            label37 = new Label();
+            label36 = new Label();
+            label35 = new Label();
             label7 = new Label();
-            textBox5 = new TextBox();
             label6 = new Label();
-            textBox4 = new TextBox();
             label5 = new Label();
-            textBox3 = new TextBox();
             label4 = new Label();
-            textBox2 = new TextBox();
             label3 = new Label();
-            textBox1 = new TextBox();
             label2 = new Label();
             flowLayoutPanel9 = new FlowLayoutPanel();
             label19 = new Label();
             label20 = new Label();
-            pictureBox1 = new PictureBox();
             panel2 = new Panel();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            flowLayoutPanel4 = new FlowLayoutPanel();
-            label17 = new Label();
-            button5 = new Button();
             panel3 = new Panel();
-            textBox10 = new TextBox();
+            label44 = new Label();
+            label43 = new Label();
+            label42 = new Label();
+            label41 = new Label();
             label27 = new Label();
-            textBox9 = new TextBox();
             label26 = new Label();
-            textBox8 = new TextBox();
-            textBox7 = new TextBox();
             label25 = new Label();
             label24 = new Label();
             panel5 = new Panel();
@@ -150,16 +139,11 @@
             panel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            panel7.SuspendLayout();
-            panel6.SuspendLayout();
-            panel4.SuspendLayout();
+            panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             panel14.SuspendLayout();
             flowLayoutPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
-            flowLayoutPanel4.SuspendLayout();
             panel3.SuspendLayout();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -466,11 +450,7 @@
             // 
             panel1.Controls.Add(flowLayoutPanel1);
             panel1.Controls.Add(panel8);
-            panel1.Controls.Add(panel7);
-            panel1.Controls.Add(panel6);
-            panel1.Controls.Add(panel4);
             panel1.Controls.Add(label28);
-            panel1.Controls.Add(button1);
             panel1.Controls.Add(pictureBox19);
             panel1.Controls.Add(label33);
             panel1.Location = new Point(441, 182);
@@ -517,74 +497,24 @@
             // panel8
             // 
             panel8.BackColor = Color.MediumAquamarine;
+            panel8.Controls.Add(label34);
             panel8.Location = new Point(136, 243);
             panel8.Margin = new Padding(4, 5, 4, 5);
             panel8.Name = "panel8";
             panel8.Size = new Size(154, 55);
             panel8.TabIndex = 23;
             // 
-            // panel7
+            // label34
             // 
-            panel7.Controls.Add(label31);
-            panel7.Location = new Point(309, 465);
-            panel7.Margin = new Padding(4, 5, 4, 5);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(101, 78);
-            panel7.TabIndex = 22;
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label31.ForeColor = SystemColors.GrayText;
-            label31.Location = new Point(21, 38);
-            label31.Margin = new Padding(4, 0, 4, 0);
-            label31.Name = "label31";
-            label31.Size = new Size(55, 23);
-            label31.TabIndex = 25;
-            label31.Text = "Jurnal";
-            // 
-            // panel6
-            // 
-            panel6.Controls.Add(label30);
-            panel6.Location = new Point(163, 465);
-            panel6.Margin = new Padding(4, 5, 4, 5);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(111, 78);
-            panel6.TabIndex = 22;
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label30.ForeColor = SystemColors.GrayText;
-            label30.Location = new Point(11, 38);
-            label30.Margin = new Padding(4, 0, 4, 0);
-            label30.Name = "label30";
-            label30.Size = new Size(87, 23);
-            label30.TabIndex = 24;
-            label30.Text = "Kehadiran";
-            label30.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // panel4
-            // 
-            panel4.Controls.Add(label29);
-            panel4.Location = new Point(30, 465);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(103, 78);
-            panel4.TabIndex = 21;
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label29.ForeColor = SystemColors.GrayText;
-            label29.Location = new Point(3, 38);
-            label29.Margin = new Padding(4, 0, 4, 0);
-            label29.Name = "label29";
-            label29.Size = new Size(100, 23);
-            label29.TabIndex = 23;
-            label29.Text = "Periode PKL";
+            label34.AutoSize = true;
+            label34.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label34.ForeColor = Color.DarkGreen;
+            label34.Location = new Point(16, 17);
+            label34.Margin = new Padding(4, 0, 4, 0);
+            label34.Name = "label34";
+            label34.Size = new Size(123, 23);
+            label34.TabIndex = 25;
+            label34.Text = "Siswa PKL Aktif";
             // 
             // label28
             // 
@@ -593,27 +523,18 @@
             label28.Location = new Point(106, 187);
             label28.Margin = new Padding(4, 0, 4, 0);
             label28.Name = "label28";
-            label28.Size = new Size(252, 38);
+            label28.Size = new Size(268, 38);
             label28.TabIndex = 20;
-            label28.Text = "Nama Lengkapmu";
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.SlateBlue;
-            button1.Location = new Point(43, 570);
-            button1.Margin = new Padding(4, 5, 4, 5);
-            button1.Name = "button1";
-            button1.Size = new Size(341, 52);
-            button1.TabIndex = 18;
-            button1.Text = "Ubah Foto Profil";
-            button1.UseVisualStyleBackColor = false;
+            label28.Text = "Ahmad Rizky Putra";
             // 
             // pictureBox19
             // 
+            pictureBox19.Image = (Image)resources.GetObject("pictureBox19.Image");
             pictureBox19.Location = new Point(136, 30);
             pictureBox19.Margin = new Padding(4, 5, 4, 5);
             pictureBox19.Name = "pictureBox19";
             pictureBox19.Size = new Size(154, 152);
+            pictureBox19.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox19.TabIndex = 17;
             pictureBox19.TabStop = false;
             // 
@@ -643,17 +564,17 @@
             // 
             // panel14
             // 
-            panel14.Controls.Add(textBox6);
+            panel14.Controls.Add(label40);
+            panel14.Controls.Add(label39);
+            panel14.Controls.Add(label38);
+            panel14.Controls.Add(label37);
+            panel14.Controls.Add(label36);
+            panel14.Controls.Add(label35);
             panel14.Controls.Add(label7);
-            panel14.Controls.Add(textBox5);
             panel14.Controls.Add(label6);
-            panel14.Controls.Add(textBox4);
             panel14.Controls.Add(label5);
-            panel14.Controls.Add(textBox3);
             panel14.Controls.Add(label4);
-            panel14.Controls.Add(textBox2);
             panel14.Controls.Add(label3);
-            panel14.Controls.Add(textBox1);
             panel14.Controls.Add(label2);
             panel14.Controls.Add(label1);
             panel14.Location = new Point(909, 182);
@@ -661,14 +582,77 @@
             panel14.Size = new Size(1000, 382);
             panel14.TabIndex = 12;
             // 
-            // textBox6
+            // label40
             // 
-            textBox6.BorderStyle = BorderStyle.FixedSingle;
-            textBox6.Location = new Point(581, 243);
-            textBox6.Margin = new Padding(4, 5, 4, 5);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(316, 31);
-            textBox6.TabIndex = 22;
+            label40.AutoSize = true;
+            label40.BackColor = Color.White;
+            label40.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label40.Location = new Point(581, 257);
+            label40.Margin = new Padding(4, 0, 4, 0);
+            label40.Name = "label40";
+            label40.Size = new Size(227, 38);
+            label40.TabIndex = 28;
+            label40.Text = "0882-0090-0987";
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.BackColor = Color.White;
+            label39.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label39.Location = new Point(581, 163);
+            label39.Margin = new Padding(4, 0, 4, 0);
+            label39.Name = "label39";
+            label39.Size = new Size(133, 38);
+            label39.TabIndex = 27;
+            label39.Text = "XII RPL 1";
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.BackColor = Color.White;
+            label38.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label38.Location = new Point(581, 73);
+            label38.Margin = new Padding(4, 0, 4, 0);
+            label38.Name = "label38";
+            label38.Size = new Size(177, 38);
+            label38.TabIndex = 26;
+            label38.Text = "0912538910";
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.BackColor = Color.White;
+            label37.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label37.Location = new Point(21, 257);
+            label37.Margin = new Padding(4, 0, 4, 0);
+            label37.Name = "label37";
+            label37.Size = new Size(471, 38);
+            label37.TabIndex = 25;
+            label37.Text = "ahmad.riski@student.smkn1.sch.id";
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.BackColor = Color.White;
+            label36.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label36.Location = new Point(21, 163);
+            label36.Margin = new Padding(4, 0, 4, 0);
+            label36.Name = "label36";
+            label36.Size = new Size(344, 38);
+            label36.TabIndex = 24;
+            label36.Text = "SMK Negeri 1 Kandeman";
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.BackColor = Color.White;
+            label35.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label35.Location = new Point(21, 73);
+            label35.Margin = new Padding(4, 0, 4, 0);
+            label35.Name = "label35";
+            label35.Size = new Size(268, 38);
+            label35.TabIndex = 23;
+            label35.Text = "Ahmad Rizky Putra";
             // 
             // label7
             // 
@@ -682,15 +666,6 @@
             label7.TabIndex = 21;
             label7.Text = "No. WhatsApp";
             // 
-            // textBox5
-            // 
-            textBox5.BorderStyle = BorderStyle.FixedSingle;
-            textBox5.Location = new Point(581, 158);
-            textBox5.Margin = new Padding(4, 5, 4, 5);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(316, 31);
-            textBox5.TabIndex = 20;
-            // 
             // label6
             // 
             label6.AutoSize = true;
@@ -702,15 +677,6 @@
             label6.Size = new Size(124, 23);
             label6.TabIndex = 19;
             label6.Text = "Kelas / Jurusan";
-            // 
-            // textBox4
-            // 
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Location = new Point(581, 73);
-            textBox4.Margin = new Padding(4, 5, 4, 5);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(316, 31);
-            textBox4.TabIndex = 18;
             // 
             // label5
             // 
@@ -724,15 +690,6 @@
             label5.TabIndex = 17;
             label5.Text = "NISN";
             // 
-            // textBox3
-            // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(21, 243);
-            textBox3.Margin = new Padding(4, 5, 4, 5);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(316, 31);
-            textBox3.TabIndex = 16;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -745,15 +702,6 @@
             label4.TabIndex = 15;
             label4.Text = "Email";
             // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(21, 158);
-            textBox2.Margin = new Padding(4, 5, 4, 5);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(316, 31);
-            textBox2.TabIndex = 14;
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -765,15 +713,6 @@
             label3.Size = new Size(105, 23);
             label3.TabIndex = 13;
             label3.Text = "Asal Sekolah";
-            // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(21, 73);
-            textBox1.Margin = new Padding(4, 5, 4, 5);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(316, 31);
-            textBox1.TabIndex = 12;
             // 
             // label2
             // 
@@ -821,78 +760,24 @@
             label20.TabIndex = 10;
             label20.Text = "Data diri siswa dan tempat magang";
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox1.Location = new Point(4, 5);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(64, 68);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 10;
-            pictureBox1.TabStop = false;
-            // 
             // panel2
             // 
             panel2.Controls.Add(tableLayoutPanel3);
-            panel2.Controls.Add(flowLayoutPanel2);
             panel2.Controls.Add(flowLayoutPanel9);
-            panel2.Controls.Add(button5);
             panel2.Location = new Point(429, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(1490, 167);
             panel2.TabIndex = 9;
             panel2.Paint += panel2_Paint;
             // 
-            // flowLayoutPanel2
-            // 
-            flowLayoutPanel2.Controls.Add(pictureBox1);
-            flowLayoutPanel2.Controls.Add(flowLayoutPanel4);
-            flowLayoutPanel2.Location = new Point(1147, 27);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(340, 75);
-            flowLayoutPanel2.TabIndex = 24;
-            // 
-            // flowLayoutPanel4
-            // 
-            flowLayoutPanel4.AutoSize = true;
-            flowLayoutPanel4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel4.Controls.Add(label17);
-            flowLayoutPanel4.Location = new Point(75, 3);
-            flowLayoutPanel4.Name = "flowLayoutPanel4";
-            flowLayoutPanel4.Size = new Size(258, 38);
-            flowLayoutPanel4.TabIndex = 23;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label17.Location = new Point(3, 0);
-            label17.Name = "label17";
-            label17.Size = new Size(252, 38);
-            label17.TabIndex = 23;
-            label17.Text = "Nama Lengkapmu";
-            label17.Click += label17_Click;
-            // 
-            // button5
-            // 
-            button5.BackColor = Color.SlateBlue;
-            button5.Location = new Point(984, 48);
-            button5.Name = "button5";
-            button5.Size = new Size(154, 52);
-            button5.TabIndex = 16;
-            button5.Text = "Edit Profil";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
-            // 
             // panel3
             // 
-            panel3.Controls.Add(textBox10);
+            panel3.Controls.Add(label44);
+            panel3.Controls.Add(label43);
+            panel3.Controls.Add(label42);
+            panel3.Controls.Add(label41);
             panel3.Controls.Add(label27);
-            panel3.Controls.Add(textBox9);
             panel3.Controls.Add(label26);
-            panel3.Controls.Add(textBox8);
-            panel3.Controls.Add(textBox7);
             panel3.Controls.Add(label25);
             panel3.Controls.Add(label24);
             panel3.Controls.Add(panel5);
@@ -902,14 +787,53 @@
             panel3.Size = new Size(1000, 382);
             panel3.TabIndex = 13;
             // 
-            // textBox10
+            // label44
             // 
-            textBox10.BorderStyle = BorderStyle.FixedSingle;
-            textBox10.Location = new Point(581, 303);
-            textBox10.Margin = new Padding(4, 5, 4, 5);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(316, 31);
-            textBox10.TabIndex = 26;
+            label44.AutoSize = true;
+            label44.BackColor = Color.White;
+            label44.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label44.Location = new Point(581, 310);
+            label44.Margin = new Padding(4, 0, 4, 0);
+            label44.Name = "label44";
+            label44.Size = new Size(363, 38);
+            label44.TabIndex = 32;
+            label44.Text = "Senin-Jumat, 08:00 - 16:00";
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.BackColor = Color.White;
+            label43.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label43.Location = new Point(581, 203);
+            label43.Margin = new Padding(4, 0, 4, 0);
+            label43.Name = "label43";
+            label43.Size = new Size(365, 38);
+            label43.TabIndex = 31;
+            label43.Text = "01 Agu 2026 - 31 Jan 2027";
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.BackColor = Color.White;
+            label42.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label42.Location = new Point(21, 315);
+            label42.Margin = new Padding(4, 0, 4, 0);
+            label42.Name = "label42";
+            label42.Size = new Size(238, 38);
+            label42.TabIndex = 30;
+            label42.Text = "Sukma Wijayanti";
+            // 
+            // label41
+            // 
+            label41.AutoSize = true;
+            label41.BackColor = Color.White;
+            label41.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label41.Location = new Point(21, 203);
+            label41.Margin = new Padding(4, 0, 4, 0);
+            label41.Name = "label41";
+            label41.Size = new Size(353, 38);
+            label41.TabIndex = 29;
+            label41.Text = "Jl. Jend. Sudirman No. 45";
             // 
             // label27
             // 
@@ -923,15 +847,6 @@
             label27.TabIndex = 25;
             label27.Text = "Jam Kerja";
             // 
-            // textBox9
-            // 
-            textBox9.BorderStyle = BorderStyle.FixedSingle;
-            textBox9.Location = new Point(581, 203);
-            textBox9.Margin = new Padding(4, 5, 4, 5);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(316, 31);
-            textBox9.TabIndex = 24;
-            // 
             // label26
             // 
             label26.AutoSize = true;
@@ -943,24 +858,6 @@
             label26.Size = new Size(135, 23);
             label26.TabIndex = 23;
             label26.Text = "Periode Magang";
-            // 
-            // textBox8
-            // 
-            textBox8.BorderStyle = BorderStyle.FixedSingle;
-            textBox8.Location = new Point(21, 303);
-            textBox8.Margin = new Padding(4, 5, 4, 5);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(316, 31);
-            textBox8.TabIndex = 22;
-            // 
-            // textBox7
-            // 
-            textBox7.BorderStyle = BorderStyle.FixedSingle;
-            textBox7.Location = new Point(21, 200);
-            textBox7.Margin = new Padding(4, 5, 4, 5);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(316, 31);
-            textBox7.TabIndex = 20;
             // 
             // label25
             // 
@@ -1031,6 +928,7 @@
             button2.TabIndex = 17;
             button2.Text = "Buka di Maps";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // pictureBox2
             // 
@@ -1381,6 +1279,7 @@
             button8.TabIndex = 22;
             button8.Text = "Kehadiran";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // pictureBox17
             // 
@@ -1433,6 +1332,7 @@
             button9.TabIndex = 11;
             button9.Text = "Guru Pembimbing";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // Statistik
             // 
@@ -1471,23 +1371,14 @@
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             panel14.ResumeLayout(false);
             panel14.PerformLayout();
             flowLayoutPanel9.ResumeLayout(false);
             flowLayoutPanel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
-            flowLayoutPanel2.ResumeLayout(false);
-            flowLayoutPanel2.PerformLayout();
-            flowLayoutPanel4.ResumeLayout(false);
-            flowLayoutPanel4.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel5.ResumeLayout(false);
@@ -1554,21 +1445,12 @@
         private Label label20;
         private Label label33;
         private PictureBox pictureBox19;
-        private PictureBox pictureBox1;
-        private Button button5;
-        private TextBox textBox1;
         private Label label2;
         private Panel panel3;
-        private Button button1;
-        private TextBox textBox6;
         private Label label7;
-        private TextBox textBox5;
         private Label label6;
-        private TextBox textBox4;
         private Label label5;
-        private TextBox textBox3;
         private Label label4;
-        private TextBox textBox2;
         private Label label3;
         private Label label22;
         private Panel panel5;
@@ -1576,28 +1458,15 @@
         private Label label21;
         private Button button2;
         private PictureBox pictureBox2;
-        private TextBox textBox10;
         private Label label27;
-        private TextBox textBox9;
         private Label label26;
-        private TextBox textBox8;
-        private TextBox textBox7;
         private Label label25;
         private Label label24;
         private Label label28;
-        private Panel panel7;
-        private Panel panel6;
-        private Panel panel4;
-        private Label label29;
-        private Label label31;
-        private Label label30;
         private FlowLayoutPanel flowLayoutPanel1;
         private PictureBox pictureBox3;
         private Panel panel8;
         private Label label32;
-        private Label label17;
-        private FlowLayoutPanel flowLayoutPanel2;
-        private FlowLayoutPanel flowLayoutPanel4;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel2;
         private TableLayoutPanel tableLayoutPanel7;
@@ -1624,5 +1493,16 @@
         private TableLayoutPanel tableLayoutPanel22;
         private PictureBox pictureBox21;
         private Button button9;
+        private Label label34;
+        private Label label39;
+        private Label label38;
+        private Label label37;
+        private Label label36;
+        private Label label35;
+        private Label label40;
+        private Label label44;
+        private Label label43;
+        private Label label42;
+        private Label label41;
     }
 }
