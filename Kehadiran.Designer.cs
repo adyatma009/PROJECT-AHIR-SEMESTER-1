@@ -69,6 +69,9 @@
             pictureBox4 = new PictureBox();
             panel5 = new Panel();
             dataGridView1 = new DataGridView();
+            Hadir = new DataGridViewTextBoxColumn();
+            Izin = new DataGridViewTextBoxColumn();
+            Sakit = new DataGridViewTextBoxColumn();
             button7 = new Button();
             button6 = new Button();
             button5 = new Button();
@@ -101,9 +104,6 @@
             tableLayoutPanel22 = new TableLayoutPanel();
             pictureBox13 = new PictureBox();
             button13 = new Button();
-            Hadir = new DataGridViewTextBoxColumn();
-            Izin = new DataGridViewTextBoxColumn();
-            Sakit = new DataGridViewTextBoxColumn();
             flowLayoutPanel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
@@ -172,7 +172,6 @@
             label2.Size = new Size(378, 23);
             label2.TabIndex = 11;
             label2.Text = "Absen harian dengan foto dokumentasi lokasi";
-            label2.Click += label2_Click;
             // 
             // panel2
             // 
@@ -233,7 +232,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 17;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
             // 
             // button3
             // 
@@ -243,7 +241,6 @@
             button3.TabIndex = 16;
             button3.Text = "Sakit";
             button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -253,7 +250,6 @@
             button2.TabIndex = 15;
             button2.Text = "Izin";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // buttonHadir
             // 
@@ -266,7 +262,6 @@
             buttonHadir.TabIndex = 14;
             buttonHadir.Text = "Hadir";
             buttonHadir.UseVisualStyleBackColor = false;
-            buttonHadir.Click += buttonHadir_Click;
             // 
             // pictureBox2
             // 
@@ -441,7 +436,6 @@
             // 
             // pictureBox8
             // 
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
             pictureBox8.Location = new Point(3, 77);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(58, 31);
@@ -519,7 +513,6 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(350, 56);
             panel4.TabIndex = 12;
-            panel4.Paint += panel4_Paint;
             // 
             // pictureBox5
             // 
@@ -540,7 +533,6 @@
             label27.Size = new Size(56, 25);
             label27.TabIndex = 16;
             label27.Text = "Siswa";
-            label27.Click += label27_Click;
             // 
             // label26
             // 
@@ -586,6 +578,27 @@
             dataGridView1.TabIndex = 5;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
+            // Hadir
+            // 
+            Hadir.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Hadir.HeaderText = "Hadir";
+            Hadir.MinimumWidth = 8;
+            Hadir.Name = "Hadir";
+            // 
+            // Izin
+            // 
+            Izin.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Izin.HeaderText = "Izin";
+            Izin.MinimumWidth = 8;
+            Izin.Name = "Izin";
+            // 
+            // Sakit
+            // 
+            Sakit.HeaderText = "Sakit";
+            Sakit.MinimumWidth = 8;
+            Sakit.Name = "Sakit";
+            Sakit.Width = 150;
+            // 
             // button7
             // 
             button7.Font = new Font("Microsoft Sans Serif", 8.25F);
@@ -605,7 +618,6 @@
             button6.TabIndex = 3;
             button6.Text = "Izin";
             button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
             // 
             // button5
             // 
@@ -616,7 +628,6 @@
             button5.TabIndex = 2;
             button5.Text = "Hadir";
             button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -644,7 +655,6 @@
             // 
             timer1.Enabled = true;
             timer1.Interval = 1000;
-            timer1.Tick += timer1_Tick;
             // 
             // tableLayoutPanel3
             // 
@@ -715,7 +725,6 @@
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(4, 5);
             pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
@@ -752,12 +761,10 @@
             button1.TabIndex = 22;
             button1.Text = "Keluar";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // pictureBox9
             // 
             pictureBox9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
             pictureBox9.Location = new Point(4, 5);
             pictureBox9.Margin = new Padding(4, 5, 4, 5);
             pictureBox9.Name = "pictureBox9";
@@ -787,7 +794,6 @@
             // 
             pictureBox10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox10.BackColor = Color.White;
-            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
             pictureBox10.Location = new Point(4, 5);
             pictureBox10.Margin = new Padding(4, 5, 4, 5);
             pictureBox10.Name = "pictureBox10";
@@ -860,7 +866,6 @@
             button8.TabIndex = 22;
             button8.Text = "Beranda";
             button8.UseVisualStyleBackColor = false;
-            button8.Click += button8_Click;
             // 
             // tableLayoutPanel19
             // 
@@ -890,7 +895,6 @@
             button9.TabIndex = 22;
             button9.Text = "Profil";
             button9.UseVisualStyleBackColor = false;
-            button9.Click += button9_Click;
             // 
             // pictureBox12
             // 
@@ -932,12 +936,10 @@
             button11.TabIndex = 22;
             button11.Text = "Jurnal harian";
             button11.UseVisualStyleBackColor = false;
-            button11.Click += button11_Click;
             // 
             // pictureBox14
             // 
             pictureBox14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
             pictureBox14.Location = new Point(4, 5);
             pictureBox14.Margin = new Padding(4, 5, 4, 5);
             pictureBox14.Name = "pictureBox14";
@@ -973,12 +975,10 @@
             button12.TabIndex = 22;
             button12.Text = "Kehadiran";
             button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
             // 
             // pictureBox17
             // 
             pictureBox17.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
             pictureBox17.Location = new Point(4, 5);
             pictureBox17.Margin = new Padding(4, 5, 4, 5);
             pictureBox17.Name = "pictureBox17";
@@ -1026,28 +1026,6 @@
             button13.TabIndex = 11;
             button13.Text = "Guru Pembimbing";
             button13.UseVisualStyleBackColor = true;
-            button13.Click += button13_Click;
-            // 
-            // Hadir
-            // 
-            Hadir.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Hadir.HeaderText = "Hadir";
-            Hadir.MinimumWidth = 8;
-            Hadir.Name = "Hadir";
-            // 
-            // Izin
-            // 
-            Izin.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Izin.HeaderText = "Izin";
-            Izin.MinimumWidth = 8;
-            Izin.Name = "Izin";
-            // 
-            // Sakit
-            // 
-            Sakit.HeaderText = "Sakit";
-            Sakit.MinimumWidth = 8;
-            Sakit.Name = "Sakit";
-            Sakit.Width = 150;
             // 
             // Kehadiran
             // 
@@ -1064,7 +1042,6 @@
             Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             Name = "Kehadiran";
             Text = "ss";
-            Load += Kehadiran_Load;
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
             panel2.ResumeLayout(false);
