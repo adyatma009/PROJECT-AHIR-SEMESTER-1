@@ -59,22 +59,32 @@ namespace PROJECT_AHIR__SEMESTER_1
                 return;
             }
 
-           if (email == "ahmad.rizky@student.Smkn1.sch.id" && pass == "12345" && nisn == "0912538910")
+            if (email == "ahmad.rizky@student.Smkn1.sch.id" && pass == "12345" && nisn == "0081234567")
             {
                 MessageBox.Show("Login Berhasil !", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 Form2 form2 = new Form2();
                 form2.Show();
                 this.Hide();
             }
-            
+
             MessageBox.Show("Login Berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Form2 formUtama = new Form2();
             formUtama.Show();
             this.Hide();
-           
+
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

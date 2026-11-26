@@ -188,5 +188,29 @@ namespace PROJECT_AHIR__SEMESTER_1
             statistik.Show();
             this.Hide();
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = FORM_TAMBAHKAN_JURNAL.dataRingkasanKegiatan;
+        }
     }
 }
