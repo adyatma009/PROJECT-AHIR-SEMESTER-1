@@ -61,15 +61,6 @@
             label32 = new Label();
             panel8 = new Panel();
             label34 = new Label();
-            panel7 = new Panel();
-            label18 = new Label();
-            label31 = new Label();
-            panel6 = new Panel();
-            label16 = new Label();
-            label30 = new Label();
-            panel4 = new Panel();
-            label13 = new Label();
-            label29 = new Label();
             label28 = new Label();
             pictureBox19 = new PictureBox();
             label33 = new Label();
@@ -90,11 +81,7 @@
             flowLayoutPanel9 = new FlowLayoutPanel();
             label19 = new Label();
             label20 = new Label();
-            pictureBox1 = new PictureBox();
             panel2 = new Panel();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            flowLayoutPanel4 = new FlowLayoutPanel();
-            label17 = new Label();
             panel3 = new Panel();
             label44 = new Label();
             label43 = new Label();
@@ -136,8 +123,6 @@
             tableLayoutPanel22 = new TableLayoutPanel();
             pictureBox21 = new PictureBox();
             button9 = new Button();
-            button1 = new Button();
-            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             tableLayoutPanel12.SuspendLayout();
@@ -155,16 +140,10 @@
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel8.SuspendLayout();
-            panel7.SuspendLayout();
-            panel6.SuspendLayout();
-            panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             panel14.SuspendLayout();
             flowLayoutPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
-            flowLayoutPanel4.SuspendLayout();
             panel3.SuspendLayout();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -469,12 +448,8 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(button5);
             panel1.Controls.Add(flowLayoutPanel1);
             panel1.Controls.Add(panel8);
-            panel1.Controls.Add(panel7);
-            panel1.Controls.Add(panel6);
-            panel1.Controls.Add(panel4);
             panel1.Controls.Add(label28);
             panel1.Controls.Add(pictureBox19);
             panel1.Controls.Add(label33);
@@ -540,108 +515,6 @@
             label34.Size = new Size(123, 23);
             label34.TabIndex = 25;
             label34.Text = "Siswa PKL Aktif";
-            // 
-            // panel7
-            // 
-            panel7.BackColor = SystemColors.ActiveCaption;
-            panel7.Controls.Add(label18);
-            panel7.Controls.Add(label31);
-            panel7.Location = new Point(309, 445);
-            panel7.Margin = new Padding(4, 5, 4, 5);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(101, 98);
-            panel7.TabIndex = 22;
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Font = new Font("Hanken Grotesk", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label18.Location = new Point(37, 32);
-            label18.Margin = new Padding(4, 0, 4, 0);
-            label18.Name = "label18";
-            label18.Size = new Size(34, 26);
-            label18.TabIndex = 26;
-            label18.Text = "48";
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label31.ForeColor = SystemColors.GrayText;
-            label31.Location = new Point(21, 62);
-            label31.Margin = new Padding(4, 0, 4, 0);
-            label31.Name = "label31";
-            label31.Size = new Size(55, 23);
-            label31.TabIndex = 25;
-            label31.Text = "Jurnal";
-            // 
-            // panel6
-            // 
-            panel6.BackColor = SystemColors.ActiveCaption;
-            panel6.Controls.Add(label16);
-            panel6.Controls.Add(label30);
-            panel6.Location = new Point(163, 445);
-            panel6.Margin = new Padding(4, 5, 4, 5);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(111, 98);
-            panel6.TabIndex = 22;
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Hanken Grotesk", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label16.Location = new Point(29, 32);
-            label16.Margin = new Padding(4, 0, 4, 0);
-            label16.Name = "label16";
-            label16.Size = new Size(49, 26);
-            label16.TabIndex = 25;
-            label16.Text = "30%";
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label30.ForeColor = SystemColors.GrayText;
-            label30.Location = new Point(10, 62);
-            label30.Margin = new Padding(4, 0, 4, 0);
-            label30.Name = "label30";
-            label30.Size = new Size(87, 23);
-            label30.TabIndex = 24;
-            label30.Text = "Kehadiran";
-            label30.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = SystemColors.ActiveCaption;
-            panel4.Controls.Add(label13);
-            panel4.Controls.Add(label29);
-            panel4.Location = new Point(30, 445);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(103, 98);
-            panel4.TabIndex = 21;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Hanken Grotesk", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(6, 32);
-            label13.Margin = new Padding(4, 0, 4, 0);
-            label13.Name = "label13";
-            label13.Size = new Size(96, 23);
-            label13.TabIndex = 15;
-            label13.Text = "Bulan ke-4";
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label29.ForeColor = SystemColors.GrayText;
-            label29.Location = new Point(4, 62);
-            label29.Margin = new Padding(4, 0, 4, 0);
-            label29.Name = "label29";
-            label29.Size = new Size(100, 23);
-            label29.TabIndex = 23;
-            label29.Text = "Periode PKL";
             // 
             // label28
             // 
@@ -887,59 +760,15 @@
             label20.TabIndex = 10;
             label20.Text = "Data diri siswa dan tempat magang";
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(4, 5);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(64, 68);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 10;
-            pictureBox1.TabStop = false;
-            // 
             // panel2
             // 
-            panel2.Controls.Add(button1);
             panel2.Controls.Add(tableLayoutPanel3);
-            panel2.Controls.Add(flowLayoutPanel2);
             panel2.Controls.Add(flowLayoutPanel9);
             panel2.Location = new Point(429, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(1490, 167);
             panel2.TabIndex = 9;
             panel2.Paint += panel2_Paint;
-            // 
-            // flowLayoutPanel2
-            // 
-            flowLayoutPanel2.Controls.Add(pictureBox1);
-            flowLayoutPanel2.Controls.Add(flowLayoutPanel4);
-            flowLayoutPanel2.Location = new Point(1147, 27);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(340, 75);
-            flowLayoutPanel2.TabIndex = 24;
-            // 
-            // flowLayoutPanel4
-            // 
-            flowLayoutPanel4.AutoSize = true;
-            flowLayoutPanel4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel4.Controls.Add(label17);
-            flowLayoutPanel4.Location = new Point(3, 81);
-            flowLayoutPanel4.Name = "flowLayoutPanel4";
-            flowLayoutPanel4.Size = new Size(274, 38);
-            flowLayoutPanel4.TabIndex = 23;
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Hanken Grotesk", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label17.Location = new Point(3, 0);
-            label17.Name = "label17";
-            label17.Size = new Size(268, 38);
-            label17.TabIndex = 23;
-            label17.Text = "Ahmad Rizky Putra";
-            label17.Click += label17_Click;
             // 
             // panel3
             // 
@@ -1505,26 +1334,6 @@
             button9.UseVisualStyleBackColor = true;
             button9.Click += button9_Click;
             // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.ActiveCaption;
-            button1.Location = new Point(951, 61);
-            button1.Name = "button1";
-            button1.Size = new Size(170, 49);
-            button1.TabIndex = 25;
-            button1.Text = "Edit Profil";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            button5.BackColor = SystemColors.ActiveCaption;
-            button5.Location = new Point(74, 581);
-            button5.Name = "button5";
-            button5.Size = new Size(291, 62);
-            button5.TabIndex = 25;
-            button5.Text = "Ubvah Foto Profil";
-            button5.UseVisualStyleBackColor = false;
-            // 
             // Statistik
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -1564,23 +1373,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             panel14.ResumeLayout(false);
             panel14.PerformLayout();
             flowLayoutPanel9.ResumeLayout(false);
             flowLayoutPanel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
-            flowLayoutPanel2.ResumeLayout(false);
-            flowLayoutPanel2.PerformLayout();
-            flowLayoutPanel4.ResumeLayout(false);
-            flowLayoutPanel4.PerformLayout();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel5.ResumeLayout(false);
@@ -1647,7 +1445,6 @@
         private Label label20;
         private Label label33;
         private PictureBox pictureBox19;
-        private PictureBox pictureBox1;
         private Label label2;
         private Panel panel3;
         private Label label7;
@@ -1666,19 +1463,10 @@
         private Label label25;
         private Label label24;
         private Label label28;
-        private Panel panel7;
-        private Panel panel6;
-        private Panel panel4;
-        private Label label29;
-        private Label label31;
-        private Label label30;
         private FlowLayoutPanel flowLayoutPanel1;
         private PictureBox pictureBox3;
         private Panel panel8;
         private Label label32;
-        private Label label17;
-        private FlowLayoutPanel flowLayoutPanel2;
-        private FlowLayoutPanel flowLayoutPanel4;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel2;
         private TableLayoutPanel tableLayoutPanel7;
@@ -1705,10 +1493,7 @@
         private TableLayoutPanel tableLayoutPanel22;
         private PictureBox pictureBox21;
         private Button button9;
-        private Label label13;
         private Label label34;
-        private Label label18;
-        private Label label16;
         private Label label39;
         private Label label38;
         private Label label37;
@@ -1719,7 +1504,5 @@
         private Label label43;
         private Label label42;
         private Label label41;
-        private Button button5;
-        private Button button1;
     }
 }
