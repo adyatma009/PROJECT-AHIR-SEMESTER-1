@@ -69,6 +69,9 @@
             pictureBox4 = new PictureBox();
             panel5 = new Panel();
             dataGridView1 = new DataGridView();
+            Hadir = new DataGridViewTextBoxColumn();
+            Izin = new DataGridViewTextBoxColumn();
+            Sakit = new DataGridViewTextBoxColumn();
             button7 = new Button();
             button6 = new Button();
             button5 = new Button();
@@ -101,9 +104,6 @@
             tableLayoutPanel22 = new TableLayoutPanel();
             pictureBox13 = new PictureBox();
             button13 = new Button();
-            Hadir = new DataGridViewTextBoxColumn();
-            Izin = new DataGridViewTextBoxColumn();
-            Sakit = new DataGridViewTextBoxColumn();
             flowLayoutPanel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
@@ -232,7 +232,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 17;
             pictureBox3.TabStop = false;
-          
             // 
             // button3
             // 
@@ -242,7 +241,6 @@
             button3.TabIndex = 16;
             button3.Text = "Sakit";
             button3.UseVisualStyleBackColor = true;
-            
             // 
             // button2
             // 
@@ -264,7 +262,6 @@
             buttonHadir.TabIndex = 14;
             buttonHadir.Text = "Hadir";
             buttonHadir.UseVisualStyleBackColor = false;
-            
             // 
             // pictureBox2
             // 
@@ -439,7 +436,6 @@
             // 
             // pictureBox8
             // 
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
             pictureBox8.Location = new Point(3, 77);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(58, 31);
@@ -580,6 +576,28 @@
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(871, 625);
             dataGridView1.TabIndex = 5;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Hadir
+            // 
+            Hadir.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Hadir.HeaderText = "Hadir";
+            Hadir.MinimumWidth = 8;
+            Hadir.Name = "Hadir";
+            // 
+            // Izin
+            // 
+            Izin.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Izin.HeaderText = "Izin";
+            Izin.MinimumWidth = 8;
+            Izin.Name = "Izin";
+            // 
+            // Sakit
+            // 
+            Sakit.HeaderText = "Sakit";
+            Sakit.MinimumWidth = 8;
+            Sakit.Name = "Sakit";
+            Sakit.Width = 150;
             // 
             // button7
             // 
@@ -707,7 +725,6 @@
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(4, 5);
             pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
@@ -748,7 +765,6 @@
             // pictureBox9
             // 
             pictureBox9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
             pictureBox9.Location = new Point(4, 5);
             pictureBox9.Margin = new Padding(4, 5, 4, 5);
             pictureBox9.Name = "pictureBox9";
@@ -778,7 +794,6 @@
             // 
             pictureBox10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox10.BackColor = Color.White;
-            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
             pictureBox10.Location = new Point(4, 5);
             pictureBox10.Margin = new Padding(4, 5, 4, 5);
             pictureBox10.Name = "pictureBox10";
@@ -925,7 +940,6 @@
             // pictureBox14
             // 
             pictureBox14.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
             pictureBox14.Location = new Point(4, 5);
             pictureBox14.Margin = new Padding(4, 5, 4, 5);
             pictureBox14.Name = "pictureBox14";
@@ -965,7 +979,6 @@
             // pictureBox17
             // 
             pictureBox17.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
             pictureBox17.Location = new Point(4, 5);
             pictureBox17.Margin = new Padding(4, 5, 4, 5);
             pictureBox17.Name = "pictureBox17";
@@ -1013,27 +1026,6 @@
             button13.TabIndex = 11;
             button13.Text = "Guru Pembimbing";
             button13.UseVisualStyleBackColor = true;
-            // 
-            // Hadir
-            // 
-            Hadir.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Hadir.HeaderText = "Hadir";
-            Hadir.MinimumWidth = 8;
-            Hadir.Name = "Hadir";
-            // 
-            // Izin
-            // 
-            Izin.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Izin.HeaderText = "Izin";
-            Izin.MinimumWidth = 8;
-            Izin.Name = "Izin";
-            // 
-            // Sakit
-            // 
-            Sakit.HeaderText = "Sakit";
-            Sakit.MinimumWidth = 8;
-            Sakit.Name = "Sakit";
-            Sakit.Width = 150;
             // 
             // Kehadiran
             // 
